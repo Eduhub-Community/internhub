@@ -1,0 +1,57 @@
+﻿<!--
+    ===========
+    Internhub
+                    =====================
+    This is our Partial view that occurs in every page
+                                        =================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        ==============
+        Meta area tags
+        =======================
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <!--Project title-->
+    <title>@ViewData["Title"] Internhub</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!--Main css file in the wwwroot directory-->
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <!--
+            ==================
+            work on the website header here
+                                        ===============
+        -->
+    </header>
+    <div>
+        <!--=========================
+            This renderBody joins the rest of the pages in the views folder to this section
+                                =================
+            -->
+            @RenderBody()
+    </div>
+
+    <footer>
+      <!--
+            ==================
+            work on the website footer here
+                                        ===============
+        -->
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
