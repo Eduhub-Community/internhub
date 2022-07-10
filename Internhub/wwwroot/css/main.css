@@ -1,5 +1,11 @@
-﻿/*
-    Css for Intenhub
-*/
+/*     CSS For Intern Hub */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    font-family: '';
 }
