@@ -1,5 +1,77 @@
-﻿/*
+/*
     Css for Intenhub
 */
-body {
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+body{
+  background-color: rgb(250, 250, 250);
+  font-family: Helvetia, Sans-Serif, Arial;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+header{
+  display: flex;
+  background-color: white;
+  padding: 1em 5em;
+  justify-content: space-between;
+}
+.name{
+  font-family: Sans-Serif, Helvetia, Arial;
+  font-size: 1.5em;
+  text-align: center;
+}
+nav{
+  font-family: Sans-Serif, Helvetia, Arial;
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+}
+.company{
+  color: #007FFF;
+  font-weight: bold;
+  font-family: Tahoma;
+  margin: 0em 1em;
+}
+button{
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  margin: 0em 0.5em;
+}
+.login{
+  background-color: white;
+  border-color: #007FFF
+}
+.login a{
+  color: #007FFF;
+}
+.signup{
+  background-color: #007FFF;
+  border-color: #007FFF;
+}
+.signup a{
+  color: white;
+}
+footer{
+  background-color: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 2em 2em;
+  position: absolute;
+  bottom: 0;
+  
+}
+.Cuvette{
+  font-size: 2em;
+  font-family: Sans-Serif, Helvetia, Arial;
+  margin: 1em 0em;
+}
+.Contact{
+  font-size: 1em;
+  font-family: Sans-Serif, Helvetia, Arial;
+  line-height: 2.0;
 }
