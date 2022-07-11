@@ -1,5 +1,49 @@
-﻿/*
-    Css for Intenhub
-*/
-body {
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+body{
+  background-color: rgb(220, 220, 220);
+  font-family: Helvetia, Sans-Serif, Arial;
+  font-size: 16px;
+}
+header{
+  display: flex;
+  background-color: white;
+  padding: 1em 1em;
+}
+.name{
+  font-family: Sans-Serif, Helvetia, Arial;
+  font-size: 1.5em;
+  text-align: center;
+}
+.navigation{
+  font-family: Sans-Serif, Helvetia, Arial;
+  font-size: 1em;
+  text-align: right;
+  justify-content: right;
+}
+.company{
+  color: #007FFF;
+  font-weight: bold;
+  font-family: Tahoma;
+}
+button{
+  border-radius: 5px;
+  padding: 0.5em 2em;
+}
+.login{
+  background-color: white;
+  border-color: #007FFF
+}
+.login a{
+  color: #007FFF;
+}
+.signup{
+  background-color: #007FFF;
+  border-color: #007FFF;
+}
+.signup a{
+  color: white;
 }
