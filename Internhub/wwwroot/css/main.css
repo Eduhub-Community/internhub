@@ -1,3 +1,6 @@
+/*
+    Css for Intenhub
+*/
 *{
   margin: 0px;
   padding: 0px;
@@ -11,18 +14,19 @@ body{
 header{
   display: flex;
   background-color: white;
-  padding: 1em 1em;
+  padding: 1em 5em;
+  justify-content: space-between;
 }
 .name{
   font-family: Sans-Serif, Helvetia, Arial;
   font-size: 1.5em;
   text-align: center;
 }
-.navigation{
+nav{
   font-family: Sans-Serif, Helvetia, Arial;
   font-size: 1em;
-  text-align: right;
-  justify-content: right;
+  text-align: center;
+  justify-content: center;
 }
 .company{
   color: #007FFF;
