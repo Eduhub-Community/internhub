@@ -1,7 +1,7 @@
 /*
     Css for Intenhub
 */
-*{
+*{*{
   margin: 0px;
   padding: 0px;
   text-decoration: none;
@@ -32,10 +32,12 @@ nav{
   color: #007FFF;
   font-weight: bold;
   font-family: Tahoma;
+  margin: 0em 1em;
 }
 button{
   border-radius: 5px;
   padding: 0.5em 2em;
+  margin: 0em 0.5em;
 }
 .login{
   background-color: white;
