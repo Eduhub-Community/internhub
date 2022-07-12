@@ -80,10 +80,11 @@ footer{
 .Cuvette{
   font-size: 2em;
   font-family: Sans-Serif, Helvetia, Arial;
-  margin: 1em 0em;
+  margin: 1em 1em;
 }
 .Contact{
   font-size: 1em;
   font-family: Sans-Serif, Helvetia, Arial;
   line-height: 2.0;
+  margin: 1em 1em;
 }
