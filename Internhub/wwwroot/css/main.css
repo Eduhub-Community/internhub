@@ -19,17 +19,28 @@ header{
   padding: 1em 5em;
   justify-content: space-between;
 }
-.name{
-  font-family: Sans-Serif, Helvetia, Arial;
-  font-size: 1.5em;
-  text-align: center;
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Sans-Serif, Helvetia, Arial;
+    font-size: 1.5em;
+    text-align: center;
 }
-nav{
-  font-family: Sans-Serif, Helvetia, Arial;
-  font-size: 1em;
-  text-align: center;
-  justify-content: center;
-}
+    .name ul li{
+        list-style:none
+    }
+        .name ul li a{
+            text-decoration: none;
+            padding: 0px 20px;
+            font-size: 20px;
+        }
+        nav {
+            font-family: Sans-Serif, Helvetia, Arial;
+            font-size: 1em;
+            text-align: center;
+            justify-content: center;
+        }
 .company{
   color: #007FFF;
   font-weight: bold;

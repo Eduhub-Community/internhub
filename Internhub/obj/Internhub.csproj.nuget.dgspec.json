@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danikay tech\\source\\repos\\Internhub\\Internhub\\Internhub.csproj": {}
+    "C:\\openSource\\internhub\\Internhub\\Internhub.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danikay tech\\source\\repos\\Internhub\\Internhub\\Internhub.csproj": {
+    "C:\\openSource\\internhub\\Internhub\\Internhub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danikay tech\\source\\repos\\Internhub\\Internhub\\Internhub.csproj",
+        "projectUniqueName": "C:\\openSource\\internhub\\Internhub\\Internhub.csproj",
         "projectName": "Internhub",
-        "projectPath": "C:\\Users\\danikay tech\\source\\repos\\Internhub\\Internhub\\Internhub.csproj",
+        "projectPath": "C:\\openSource\\internhub\\Internhub\\Internhub.csproj",
         "packagesPath": "C:\\Users\\danikay tech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danikay tech\\source\\repos\\Internhub\\Internhub\\obj\\",
+        "outputPath": "C:\\openSource\\internhub\\Internhub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danikay tech\\AppData\\Roaming\\NuGet\\NuGet.Config",

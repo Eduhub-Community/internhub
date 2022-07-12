@@ -16,9 +16,9 @@
     -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content=""/>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
     <!--Project title-->
     <title>@ViewData["Title"] Internhub</title>
 
@@ -33,49 +33,69 @@
             work on the website header here
                                         ===============
         -->
+        <div class="name">
+            <h2>Internhub</h2>
+            <ul>
+                <li>
+                    <a asp-controller="Internships" asp-action="Index">Intenships</a>
+                </li>
+            </ul>
+
+        </div>
+        <nav>
+            <a class="company" href="#">Are you a company ?</a>
+            <button class="Login" type="submit"><a href="Login">Log In</a></button>
+            <button class="signup" type="submit"><a href="Sign up">Sign Up</a></button>
+        </nav>
     </header>
     <div>
         <!--=========================
             This renderBody joins the rest of the pages in the views folder to this section
                                 =================
             -->
-            @RenderBody()
+        @RenderBody()
     </div>
 
-    <footer>
-      <!--
-            ==================
-            work on the website footer here
-                                        ===============
-        -->
-        <div class="footer_container"> <!-- Apply FLEX in CSS -->
-            <div class="footer_logo"> <!-- Apply FLEX in CSS -->
-                 <img class="footer_img" src="" alt="">
-            </div>
-            
-            <div class="footer_icons"> <!-- Apply FLEX in CSS -->
-                <a target="_blank" class="F_ICONS" href=""></a>
-                <a target="_blank" class="F_ICONS" href=""></a>
-                <a target="_blank" class="F_ICONS" href=""></a>
-                <a target="_blank" class="F_ICONS" href=""></a>
-             </div>
-    
-            <div class="footer_location"> <!-- Apply FLEX in CSS -->
-                <div class="footer_address">
-                    <a target="_blank" href="">Contact</a>
-                    "| <!-- Location of the website -->"
-                </div>
-            </div>
-            
-            <div class="footer_copyright">
-                "Copyright"
-                "2022"
-                "Internhub-All rights reserved"
-            </div>
-            
+    <footer class="w-100">
+        <!--
+              ==================
+              work on the website footer here
+                                          ===============
+          -->
+        <div>
+            <p class="Cuvette">Internhub</p>
+            <p class="Contact"><span>Contact</span> | Indiranagar, Bangalore <br />Copyright 2022 Cuvette - All rights reserved</p>
         </div>
+
+
+        @*  <div class="footer_container"> <!-- Apply FLEX in CSS -->
+        <div class="footer_logo"> <!-- Apply FLEX in CSS -->
+        <img class="footer_img" src="" alt="">
+        </div>
+
+        <div class="footer_icons"> <!-- Apply FLEX in CSS -->
+        <a target="_blank" class="F_ICONS" href=""></a>
+        <a target="_blank" class="F_ICONS" href=""></a>
+        <a target="_blank" class="F_ICONS" href=""></a>
+        <a target="_blank" class="F_ICONS" href=""></a>
+        </div>
+
+        <div class="footer_location"> <!-- Apply FLEX in CSS -->
+        <div class="footer_address">
+        <a target="_blank" href="">Contact</a>
+        "| <!-- Location of the website -->"
+        </div>
+        </div>
+
+        <div class="footer_copyright">
+        "Copyright"
+        "2022"
+        "Internhub-All rights reserved"
+        </div>
+
+        </div>*@
     </footer>
-<!--     Links to Javascripts -->
+    <!--     Links to Javascripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
