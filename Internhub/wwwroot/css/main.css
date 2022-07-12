@@ -71,6 +71,7 @@ footer{
   color: white;
   text-align: center;
   justify-content: center;
+  display: flex
   padding: 2em 2em;
   position: absolute;
   bottom: 0;
