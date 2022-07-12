@@ -71,20 +71,27 @@ footer{
   color: white;
   text-align: center;
   justify-content: center;
-  display: flex
   padding: 2em 2em;
   position: absolute;
   bottom: 0;
-  
+  width: 100%;
 }
-.Cuvette{
-  font-size: 2em;
-  font-family: Sans-Serif, Helvetia, Arial;
+.footer_container{
+  display: flex;
+}
+.footer_logo{
+  margin: 1em 1em;
+  padding: 2em 2em;
+}
+.section{
   margin: 1em 1em;
 }
 .Contact{
   font-size: 1em;
   font-family: Sans-Serif, Helvetia, Arial;
   line-height: 2.0;
+}
+.footer_icons{
   margin: 1em 1em;
+  padding: 2em 2em;
 }
