@@ -14,5 +14,10 @@ namespace Internhub.Controllers
         {
             return View();
         }
+
+        public IActionResult Applied()
+        {
+            return View();
+        }
     }
 }

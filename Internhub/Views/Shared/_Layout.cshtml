@@ -37,7 +37,13 @@
             <h2>Internhub</h2>
             <ul>
                 <li>
-                    <a asp-controller="Internships" asp-action="Index">Intenships</a>
+                    <a asp-area="" asp-controller="Internships" asp-action="Index">Intenships</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Internships" asp-action="Applied">Applied Jobs</a>
+                </li>
+                <li>
+                    <a asp-area="Company" asp-controller="Home" asp-action="Index">Company</a>
                 </li>
             </ul>
 
