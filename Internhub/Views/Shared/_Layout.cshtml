@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <!--Main css file in the wwwroot directory-->
     <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
 </head>
 <body>
     <header>
@@ -33,27 +35,52 @@
             work on the website header here
                                         ===============
         -->
-        <div class="name">
-            <h2>Internhub</h2>
+       
+      <label class="logo"><a asp-area="" asp-controller="Home" asp-action="Index">Internhub</a></label>
+        <nav>
             <ul>
+                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Index">Internships</a></li>
+                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Applied">Applied Jobs</a></li>
+                <li><a class="nav_content" asp-area="Company" asp-controller="Home" asp-action="Index">Company</a></li>
+            <li>
+            <a class="company">Are you a company</a>
+            </li>
                 <li>
-                    <a asp-area="" asp-controller="Internships" asp-action="Index">Intenships</a>
+            <a class="login">Log in</a>
                 </li>
                 <li>
-                    <a asp-area="" asp-controller="Internships" asp-action="Applied">Applied Jobs</a>
+            <a class="signup">Sign up</a>
+                </li>
+            </ul>
+        </nav>
+        <!--=========
+            Hamburger Menu Start
+        -->
+        <div id="hamburger-icon"  onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Index">Internships</a></li>
+                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Applied">Applied Jobs</a></li>
+                <li><a class="nav_content" asp-area="Company" asp-controller="Home" asp-action="Index">Company</a></li>
+            <li>
+            <a class="company">Are you a company</a>
+            </li>
+                <li>
+            <a class="login">Log in</a>
                 </li>
                 <li>
-                    <a asp-area="Company" asp-controller="Home" asp-action="Index">Company</a>
+            <a class="signup">Sign up</a>
                 </li>
             </ul>
 
         </div>
-        <nav>
-            <a class="company" href="#">Are you a company ?</a>
-            <button class="Login" type="submit"><a href="Login">Log In</a></button>
-            <button class="signup" type="submit"><a href="Sign up">Sign Up</a></button>
-        </nav>
+        <!--=========
+            Hamburger Menu End
+        -->
     </header>
+
     <div>
         <!--=========================
             This renderBody joins the rest of the pages in the views folder to this section
@@ -68,7 +95,7 @@
               work on the website footer here
                                           ===============
           -->
-      <div class="footer_container">
+    @*  <div class="footer_container">
         <div class="footer_logo"> <!-- Apply FLEX in CSS -->
           <img class="footer_img" src="" alt="Cuvette logo">
         </div>
@@ -82,6 +109,7 @@
           <a target="_blank" class="F_ICONS" href=""></a>
         </div>
         </div>
+        *@
    </footer>
 
 

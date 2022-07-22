@@ -2,3 +2,8 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+//Hamburger menu click action
+function toggleMobileMenu(menubar) {
+    menubar.classList.toggle('open');
+}
