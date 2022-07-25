@@ -1,147 +1,271 @@
 /*
     Css for Intenhub
 */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: white;
-    font-family: 'DM Sans', sans-serif;
+  background-color: white;
+  font-family: "DM Sans", sans-serif;
 }
 
 /*Navbar css start*/
 header a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header {
-    padding: 0 20px;
-    background-color: #fff;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
+  padding: 0 20px;
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    font-weight: bold;
-    color:blue;
-    font-family: 'Rubik', sans-serif;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    font-size: 18px;
+  font-weight: bold;
+  color: blue;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
 }
-
 
 ul {
-    list-style: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .nav_content {
-    color: black;
+  color: black;
 }
 .nav_content:hover {
-    color: black;
+  color: black;
 }
 
-    ul li {
-        padding: 5px;
-        margin-left: 10px;
-    }
+ul li {
+  padding: 5px;
+  margin-left: 10px;
+}
 
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 
-        ul li:hover {
-            transform: scale(1.1);
-            transition: 0.3s;
-        }
-
-.signup, .login {
-    border-radius: 5px;
-    padding: 5px 8px;
+.signup,
+.login {
+  border-radius: 5px;
+  padding: 5px 8px;
 }
 
 .login {
-    border: 1px solid #007FFF;
-    color: #007FFF;
+  border: 1px solid #007fff;
+  color: #007fff;
 }
 
 .signup {
-    border: 1px solid #007FFF;
-    background-color: #007FFF;
-    color: white;
+  border: 1px solid #007fff;
+  background-color: #007fff;
+  color: white;
 }
-.signup:hover{
-    color:white;
+.signup:hover {
+  color: white;
 }
 
 .company {
-    color: #007FFF;
+  color: #007fff;
 }
 
 #hamburger-icon {
-    margin: auto 0;
-    display: none;
-    cursor: pointer;
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
 }
 
-    #hamburger-icon div {
-        width: 35px;
-        height: 3px;
-        background-color: black;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
 
 .open .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-6px,6px);
-    transform: rotate(-45deg) translate(-6px,6px);
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
 }
 
 .open .bar2 {
-    opacity: 0;
+  opacity: 0;
 }
 
 .open .bar3 {
-    -webkit-transform: rotate(45deg) translate(-6px,-8px);
-    transform: rotate(45deg) translate(-6px,-8px);
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
 }
 
 .open .mobile-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .mobile-menu {
-    display: none;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    height: calc(100vh - 50px);
-    width: 100%;
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
 }
 
-    .mobile-menu li {
-        margin-bottom: 10px;
-    }
+.mobile-menu li {
+  margin-bottom: 10px;
+}
 
-@media only screen and (max-width:950px) {
-    header nav {
-        display: none;
-    }
+@media only screen and (max-width: 950px) {
+  header nav {
+    display: none;
+  }
 
-    #hamburger-icon {
-        display: block;
-    }
+  #hamburger-icon {
+    display: block;
+  }
 }
 /*Navbar css End*/
+
+/*InternShip Page css start*/
+.text-small {
+  font-size: 0.635rem;
+}
+#scroll-items::-webkit-scrollbar {
+  height: 0rem;
+}
+.income {
+  font-weight: bold;
+}
+#scroll-items {
+  scroll-behavior: smooth;
+}
+.apply {
+  padding: 0.3rem 0.5rem !important;
+  border-radius: 7px !important;
+}
+@media (min-width: 992px) {
+  .deadline {
+    font-size: 0.8rem;
+    color: #445ee2;
+  }
+}
+.apply:hover {
+  background: #3922c0 !important;
+}
+
+@media (max-width: 768px) {
+  .deadline {
+    font-size: 0.8rem;
+    color: #445ee2;
+  }
+  .income {
+    font-size: 0.8rem;
+  }
+  .intern-card {
+    height: 70%;
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+.share {
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  .row .logo {
+    flex: 0 0 auto;
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 5px !important;
+  }
+  .row .logo > img {
+    width: 100%;
+  }
+  .job-title {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: 1.5rem;
+  }
+  .job-title h5,
+  .job-title h6 {
+    font-size: 0.83rem !important;
+  }
+  .intern-container {
+    margin: auto;
+  }
+  .intern-card {
+    width: 40%;
+  }
+  .box {
+    width: 90%;
+  }
+  .job-type {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    justify-content: space-between !important;
+  }
+  .job-type > p {
+    font-size: 0.66rem !important;
+  }
+  .job-type > p > i {
+    font-size: 12px !important;
+  }
+  .share {
+    margin-top: -10px;
+    margin-right: 10px;
+  }
+  .share > i {
+    font-size: 17px;
+  }
+  .deadline-container + span {
+    width: 41%;
+    height: 100%;
+  }
+}
+.bi-info-circle {
+  color: grey;
+  cursor: pointer;
+  font-size: 15px !important;
+  position: relative;
+}
+.bi-info-circle::after {
+  content: "Location of this internship can be either Remote or In-Office";
+  position: absolute;
+  font-size: 0.8rem;
+  font-style: normal;
+  padding: 15px 25px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.836);
+  top: 180%;
+  right: 20%;
+  width: 240px;
+  display: none;
+  height: 140px;
+  border-radius: 2px;
+}
+.bi-info-circle:hover::after {
+  display: block;
+}
+/*InternShip Page css end*/
