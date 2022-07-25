@@ -191,6 +191,13 @@ ul li:hover {
 }
 .share {
   font-size: 20px;
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  padding: 4px 5px 5px 5px;
+}
+.share:hover {
+  background: #d4e7fb7c;
 }
 
 @media (max-width: 576px) {
