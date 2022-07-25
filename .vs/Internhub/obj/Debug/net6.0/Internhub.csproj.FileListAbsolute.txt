@@ -1,0 +1,725 @@
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\appsettings.json
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Internhub.staticwebassets.runtime.json
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Internhub.exe
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Internhub.deps.json
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Internhub.runtimeconfig.json
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Internhub.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Internhub.pdb
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.csproj.AssemblyReference.cache
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.AssemblyInfoInputs.cache
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.AssemblyInfo.cs
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.csproj.CoreCompileInputs.cache
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.RazorAssemblyInfo.cache
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.RazorAssemblyInfo.cs
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\scopedcss\bundle\Internhub.styles.css
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\scopedcss\projectbundle\Internhub.bundle.scp.css
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\refint\Internhub.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.pdb
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.genruntimeconfig.cache
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\ref\Internhub.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Humanizer.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\MessagePack.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\NuGet.Common.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\danikay tech\source\repos\Internhub\Internhub\obj\Debug\net6.0\Internhub.csproj.CopyComplete
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\appsettings.Development.json
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\appsettings.json
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Internhub.staticwebassets.runtime.json
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Internhub.exe
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Internhub.deps.json
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Internhub.runtimeconfig.json
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Internhub.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Internhub.pdb
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Humanizer.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\MessagePack.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\NuGet.Common.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.csproj.AssemblyReference.cache
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.GeneratedMSBuildEditorConfig.editorconfig
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.AssemblyInfoInputs.cache
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.AssemblyInfo.cs
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.csproj.CoreCompileInputs.cache
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.MvcApplicationPartsAssemblyInfo.cache
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.RazorAssemblyInfo.cache
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.RazorAssemblyInfo.cs
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\staticwebassets.build.json
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\staticwebassets.development.json
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\scopedcss\bundle\Internhub.styles.css
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\scopedcss\projectbundle\Internhub.bundle.scp.css
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.csproj.CopyComplete
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.dll
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\refint\Internhub.dll
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.pdb
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\Internhub.genruntimeconfig.cache
+C:\openSource\internhub\Internhub\obj\Debug\net6.0\ref\Internhub.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\appsettings.json
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Internhub.staticwebassets.runtime.json
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Internhub.exe
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Internhub.deps.json
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Internhub.runtimeconfig.json
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Internhub.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Internhub.pdb
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Humanizer.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\MessagePack.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\NuGet.Common.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.csproj.AssemblyReference.cache
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.AssemblyInfoInputs.cache
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.AssemblyInfo.cs
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.csproj.CoreCompileInputs.cache
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.RazorAssemblyInfo.cache
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.RazorAssemblyInfo.cs
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\scopedcss\bundle\Internhub.styles.css
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\scopedcss\projectbundle\Internhub.bundle.scp.css
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.csproj.CopyComplete
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.dll
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\refint\Internhub.dll
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.pdb
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.genruntimeconfig.cache
+C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\ref\Internhub.dll
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\package-lock.json
+C:\Users\usaer\Documents\internhub\Internhub\bin\Debug\net6.0\package.json
