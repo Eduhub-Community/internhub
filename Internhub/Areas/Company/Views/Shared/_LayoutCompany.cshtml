@@ -42,15 +42,15 @@
                             </a>
                            
                             <div class="sb-sidenav-menu-heading">Internships</div>
-                            <a class="nav-link">
+                            <a class="nav-link" asp-area="Company" asp-controller="Internship" asp-action="Post">
                                 <div class="sb-nav-link-icon"><i class="fas fa-plus"></i></div>
                                 New Internship
                             </a>
-                            <a class="nav-link" href="tables.html">
+                            <a class="nav-link" asp-area="Company" asp-action="List" asp-controller="Internship">
                                 <div class="sb-nav-link-icon"><i class="fas fa-list"></i></div>
                                 Posted Internships
                             </a>
-                             <a class="nav-link">
+                             <a class="nav-link" asp-area="Company" asp-action="Resumes" asp-controller="Internship">
                                 <div class="sb-nav-link-icon"><i class="fas fa-file"></i></div>
                                 View Resumes
                             </a>

@@ -19,6 +19,18 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueVxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/openSource/internhub/Internhub/Areas/Company/Views/Internship/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueVxWaWV3c1xJbnRlcm5zaGlwXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/openSource/internhub/Internhub/Areas/Company/Views/Internship/Post.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueVxWaWV3c1xJbnRlcm5zaGlwXFBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/openSource/internhub/Internhub/Areas/Company/Views/Internship/Resumes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueVxWaWV3c1xJbnRlcm5zaGlwXFJlc3VtZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/openSource/internhub/Internhub/Areas/Company/Views/Shared/_LayoutCompany.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueVxWaWV3c1xTaGFyZWRcX0xheW91dENvbXBhbnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
