@@ -11,7 +11,6 @@
 }
 
 body {
-  background-color: white;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -31,6 +30,7 @@ header {
     position: sticky;
     left: 0;
     z-index: 103;
+    box-shadow: 10px 2px #fff;
 }
 
 .logo {
@@ -146,6 +146,9 @@ ul li:hover {
 
   #hamburger-icon {
     display: block;
+  }
+  #hamburger-icon ul{
+      background-color: #fff;
   }
 }
 /*Navbar css End*/
