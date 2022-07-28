@@ -18,7 +18,7 @@
   background-color: rgba(60, 60, 60, 0.7);
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 91%;
+  margin-left: 80%;
 }
 .addJob{
   justify-content: center;
@@ -27,7 +27,9 @@
   color: rgb(150, 150, 150);
   width: 100%;
   margin-bottom: 1em;
-  padding: 0% 45%;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2em;
 }
 .main{
   width: 100%;
@@ -68,9 +70,11 @@ label{
   align-content: center;
   width: 100%;
 }
-.section2 input{
+.section2 textarea, .form1 textarea{
   padding: 0.3em 0.4em 1em;
   width: 100%;
+  margin-top: 0.5em;
+  overflow: auto;
 }
 input{
   margin-top: 0.5em;
@@ -94,6 +98,7 @@ input[type=button]{
   color: white;
   background-color: purple;
   border-radius: 5px;
+  margin-bottom: 1em;
 }
 @media only screen and (max-width: 600px) {
   body{
@@ -102,4 +107,15 @@ input[type=button]{
   .section1{
     flex-direction: column;
   }
+  .form1, .form2{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) { 
+#LD{
+  margin-bottom: 1.85em;
+}
+#companyLogo{
+  margin-bottom: 0em;
+}
 }
