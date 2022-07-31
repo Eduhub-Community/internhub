@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1oIpGi/VgZ+N2jV9N2PJLIpGEXtrixBgJ7FHoe4OGj8=",
+  "Hash": "O179zDX1BjkGmu9kkVaSBc74x4tKAjYdcCt2nee6a+c=",
   "Source": "Internhub",
   "BasePath": "_content/Internhub",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\openSource\\internhub\\Internhub\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Internhub.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Company\\css\\main.css",
+      "SourceId": "Internhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
+      "BasePath": "_content/Internhub",
+      "RelativePath": "Company/css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Company\\css\\main.css"
     },
     {
       "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Company\\css\\styles.css",
