@@ -9,13 +9,13 @@
       <h1>Online Job Portal</h1>
     </div>
     <div class="back">
-      <a href="#"> Back</a>
+      <a asp-area="Company" asp-action="Index" asp-controller="Home"> Back</a>
     </div>
     <div class="addJob">
       <h2>Add Job</h2>
     </div>
     <div class="main">
-      <form action="" method="get" accept-charset="utf-8">
+      <form action="" method="get" enctype="multipart/form-data" accept-charset="utf-8">
         <div class="formContainer">
           <div class="section1">
             <div class="form1">
@@ -24,7 +24,7 @@
             </div>
             <div class="form2">
               <label for="NOP">Number Of Post</label><br>
-              <input type="text" name="NOP" id="NOP" placeholder="3"><br><br>
+              <input type="number" name="NOP" id="NOP" placeholder="3"><br><br>
             </div>
           </div>
           <div class="section2">
@@ -64,7 +64,8 @@
         <div class="section1">
           <div class="form1">
             <label for="Country">Country</label><br>
-            <select name="Country" id="Country">
+            <input type="text" name="Country" list="Country"/>
+            <datalist id="Country">
               <option value="Nigeria" selected>Nigeria</option>
               <option value="Africa">Other African Countries</option>
               <option value="Australia">Australia</option>
@@ -72,15 +73,16 @@
               <option value="Canada">Canada</option>
               <option value="Europe">Europe</option>
               <option value="Asian">Asian Countries</option>
-            </select><br><br>
+            </datalist>
+            <br><br>
           </div>
           <div class="form2">
             <label for="State">State</label><br>
             <input type="text" name="State" id="State" placeholder="Lagos"><br><br>
           </div>
         </div>  
-        <div class="update">
-          <input type="button" value="Update">
+        <div class="post">
+          <input type="button" value="Post">
         </div>
         </div>
       </form>

@@ -55,6 +55,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJuc2hpcHNcQXBwbGllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/openSource/internhub/Internhub/Views/Internships/Description.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJuc2hpcHNcRGVzY3JpcHRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/openSource/internhub/Internhub/Views/Internships/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJuc2hpcHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
