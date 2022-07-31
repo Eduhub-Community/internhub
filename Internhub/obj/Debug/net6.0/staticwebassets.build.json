@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O179zDX1BjkGmu9kkVaSBc74x4tKAjYdcCt2nee6a+c=",
+  "Hash": "rTsZQUkLuNsR0sbkDYG8Xlc0iyt/9xApXKAkcmW9mts=",
   "Source": "Internhub",
   "BasePath": "_content/Internhub",
   "Mode": "Default",
@@ -153,12 +153,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\10XFull.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\10XFull.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/10XFull.jpg",
+      "RelativePath": "images/10XFull.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\10XFull.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\10XFull.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\ArachnomeshFull.svg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\ArachnomeshFull.svg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/ArachnomeshFull.svg",
+      "RelativePath": "images/ArachnomeshFull.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\ArachnomeshFull.svg"
+      "OriginalItemSpec": "wwwroot\\images\\ArachnomeshFull.svg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\ArachomeshMarket.svg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\ArachomeshMarket.svg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/ArachomeshMarket.svg",
+      "RelativePath": "images/ArachomeshMarket.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\ArachomeshMarket.svg"
+      "OriginalItemSpec": "wwwroot\\images\\ArachomeshMarket.svg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\BromeesMarket.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\BromeesMarket.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/BromeesMarket.jpg",
+      "RelativePath": "images/BromeesMarket.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\BromeesMarket.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\BromeesMarket.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\devops.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\devops.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/devops.jpg",
+      "RelativePath": "images/devops.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\devops.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\devops.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\DIGI1.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\DIGI1.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/DIGI1.jpg",
+      "RelativePath": "images/DIGI1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\DIGI1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\DIGI1.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\Evolvfront.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\Evolvfront.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/Evolvfront.jpg",
+      "RelativePath": "images/Evolvfront.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Evolvfront.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Evolvfront.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\Fountainfront.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\Fountainfront.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/Fountainfront.jpg",
+      "RelativePath": "images/Fountainfront.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Fountainfront.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Fountainfront.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\Frontend-logo.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\Frontend-logo.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/Frontend-logo.jpg",
+      "RelativePath": "images/Frontend-logo.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Frontend-logo.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Frontend-logo.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\HR1.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\HR1.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/HR1.jpg",
+      "RelativePath": "images/HR1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,15 +320,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\HR1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\HR1.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\KSIBACK.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\KSIBACK.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/KSIBACK.jpg",
+      "RelativePath": "images/KSIBACK.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\KSIBACK.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\KSIBACK.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\logo1.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\logo1.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/logo1.jpg",
+      "RelativePath": "images/logo1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\logo1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\logo1.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\Ml1.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\Ml1.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/Ml1.jpg",
+      "RelativePath": "images/Ml1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Ml1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Ml1.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\ML2.svg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\ML2.svg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/ML2.svg",
+      "RelativePath": "images/ML2.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,15 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\ML2.svg"
+      "OriginalItemSpec": "wwwroot\\images\\ML2.svg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\ModgenecicsSoftware.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\ModgenecicsSoftware.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/ModgenecicsSoftware.jpg",
+      "RelativePath": "images/ModgenecicsSoftware.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,15 +405,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\ModgenecicsSoftware.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\ModgenecicsSoftware.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\OmbreFull.svg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\OmbreFull.svg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/OmbreFull.svg",
+      "RelativePath": "images/OmbreFull.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -422,15 +422,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\OmbreFull.svg"
+      "OriginalItemSpec": "wwwroot\\images\\OmbreFull.svg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\Ososplc.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\Ososplc.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/Ososplc.jpg",
+      "RelativePath": "images/Ososplc.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -439,15 +439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Ososplc.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Ososplc.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\PRO1.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\PRO1.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/PRO1.jpg",
+      "RelativePath": "images/PRO1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,15 +456,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\PRO1.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\PRO1.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\PRO2.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\PRO2.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/PRO2.jpg",
+      "RelativePath": "images/PRO2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -473,15 +473,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\PRO2.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\PRO2.jpg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\softDev.svg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\softDev.svg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/softDev.svg",
+      "RelativePath": "images/softDev.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -490,15 +490,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\softDev.svg"
+      "OriginalItemSpec": "wwwroot\\images\\softDev.svg"
     },
     {
-      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\Images\\Youshdfront.jpg",
+      "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\images\\Youshdfront.jpg",
       "SourceId": "Internhub",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\openSource\\internhub\\Internhub\\wwwroot\\",
       "BasePath": "_content/Internhub",
-      "RelativePath": "Images/Youshdfront.jpg",
+      "RelativePath": "images/Youshdfront.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -507,7 +507,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Youshdfront.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Youshdfront.jpg"
     },
     {
       "Identity": "C:\\openSource\\internhub\\Internhub\\wwwroot\\js\\site.js",

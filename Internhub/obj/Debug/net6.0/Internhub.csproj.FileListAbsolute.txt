@@ -717,3 +717,10 @@ C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\refint\Internhub.d
 C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.pdb
 C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\Internhub.genruntimeconfig.cache
 C:\Users\usaer\Documents\internhub\Internhub\obj\Debug\net6.0\ref\Internhub.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Npgsql.dll
+C:\openSource\internhub\Internhub\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
