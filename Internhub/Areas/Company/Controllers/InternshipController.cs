@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Internhub.Models;
+using Internhub.Models.Static;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Internhub.Areas.Company.Controllers
 {
@@ -13,6 +16,7 @@ namespace Internhub.Areas.Company.Controllers
         }
         public IActionResult Post()
         {
+            ViewBag.Country = new SelectList(Enum.GetNames(typeof(Country.List)));
             return View();
         }
         public IActionResult List()
