@@ -1,10 +1,15 @@
 using Internhub.Data;
+using Internhub.Models.Static;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Add Country service
+builder.Services.AddSingleton<ICountry, Country>();
+
 
 //Add postgres database service
 builder.Services.AddDbContext<DataContext>(options => options.UseNpgsql(

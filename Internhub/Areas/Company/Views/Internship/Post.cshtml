@@ -64,16 +64,7 @@
         <div class="section1">
           <div class="form1">
             <label for="Country">Country</label><br>
-            <input type="text" name="Country" list="Country"/>
-            <datalist id="Country" asp-item="@ViewBag.Country">
-              @*<option value="Nigeria" selected>Nigeria</option>
-              <option value="Africa">Other African Countries</option>
-              <option value="Australia">Australia</option>
-              <option value="America">United States</option>
-              <option value="Canada">Canada</option>
-              <option value="Europe">Europe</option>
-              <option value="Asian">Asian Countries</option>*@
-            </datalist>
+            <select asp-items="@ViewBag.Country" type="text" name="Country"></select>
             <br><br>
           </div>
           <div class="form2">

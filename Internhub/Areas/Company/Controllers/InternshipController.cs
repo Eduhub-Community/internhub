@@ -9,14 +9,16 @@ namespace Internhub.Areas.Company.Controllers
     public class InternshipController : Controller
     {
         private readonly ILogger<InternshipController> _logger;
+        private readonly ICountry country;
 
-        public InternshipController(ILogger<InternshipController> logger)
+        public InternshipController(ILogger<InternshipController> logger, ICountry country)
         {
-            _logger = logger;
+            _logger = logger;            this.country = country; 
+
         }
         public IActionResult Post()
         {
-            ViewBag.Country = new SelectList(Enum.GetNames(typeof(Country.List)));
+            ViewBag.Country = new SelectList(country.CountryNames());
             return View();
         }
         public IActionResult List()
