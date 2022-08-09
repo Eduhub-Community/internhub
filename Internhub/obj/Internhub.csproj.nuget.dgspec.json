@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\openSource\\internhub\\Internhub\\Internhub.csproj": {}
+    "C:\\Users\\usaer\\Documents\\internhub\\Internhub\\Internhub.csproj": {}
   },
   "projects": {
-    "C:\\openSource\\internhub\\Internhub\\Internhub.csproj": {
+    "C:\\Users\\usaer\\Documents\\internhub\\Internhub\\Internhub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\openSource\\internhub\\Internhub\\Internhub.csproj",
+        "projectUniqueName": "C:\\Users\\usaer\\Documents\\internhub\\Internhub\\Internhub.csproj",
         "projectName": "Internhub",
-        "projectPath": "C:\\openSource\\internhub\\Internhub\\Internhub.csproj",
-        "packagesPath": "C:\\Users\\danikay tech\\.nuget\\packages\\",
-        "outputPath": "C:\\openSource\\internhub\\Internhub\\obj\\",
+        "projectPath": "C:\\Users\\usaer\\Documents\\internhub\\Internhub\\Internhub.csproj",
+        "packagesPath": "C:\\Users\\usaer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\usaer\\Documents\\internhub\\Internhub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\danikay tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\usaer\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

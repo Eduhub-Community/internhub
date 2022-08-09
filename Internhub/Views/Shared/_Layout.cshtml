@@ -8,6 +8,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--
         ==============
@@ -26,10 +27,11 @@
     <!--Main css file in the wwwroot directory-->
     <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
     <!--Font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-     <!--BootStrap Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!--BootStrap Icons-->
     <link rel="stylesheet" href="~/lib/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
+
 <body>
     <header>
         <!--
@@ -37,43 +39,47 @@
             work on the website header here
                                         ===============
         -->
-       
-      <label class="logo"><a asp-area="" asp-controller="Home" asp-action="Index">Internhub</a></label>
+
+        <label class="logo"><a asp-area="" asp-controller="Home" asp-action="Index">Internhub</a></label>
         <nav>
-            <ul>
-                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Index">Internships</a></li>
-                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Applied">Applied Jobs</a></li>
+            <ul class="layout-navbar">
+                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Index">Internships</a>
+                </li>
+                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Applied">Applied
+                        Jobs</a></li>
                 <li><a class="nav_content" asp-area="Company" asp-controller="Home" asp-action="Index">Company</a></li>
-            <li>
-            <a class="company">Are you a company</a>
-            </li>
                 <li>
-            <a class="login">Log in</a>
+                    <a class="company">Are you a company</a>
                 </li>
                 <li>
-            <a class="signup">Sign up</a>
+                    <a class="login">Log in</a>
+                </li>
+                <li>
+                    <a class="signup">Sign up</a>
                 </li>
             </ul>
         </nav>
         <!--=========
             Hamburger Menu Start
         -->
-        <div id="hamburger-icon"  onclick="toggleMobileMenu(this)">
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
             <ul class="mobile-menu">
-                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Index">Internships</a></li>
-                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Applied">Applied Jobs</a></li>
+                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Index">Internships</a>
+                </li>
+                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Applied">Applied
+                        Jobs</a></li>
                 <li><a class="nav_content" asp-area="Company" asp-controller="Home" asp-action="Index">Company</a></li>
-            <li>
-            <a class="company">Are you a company</a>
-            </li>
                 <li>
-            <a class="login">Log in</a>
+                    <a class="company">Are you a company</a>
                 </li>
                 <li>
-            <a class="signup">Sign up</a>
+                    <a class="login">Log in</a>
+                </li>
+                <li>
+                    <a class="signup">Sign up</a>
                 </li>
             </ul>
 
@@ -97,31 +103,32 @@
               work on the website footer here
                                           ===============
           -->
-    @*  <div class="footer_container">
-        <div class="footer_logo"> <!-- Apply FLEX in CSS -->
-          <img class="footer_img" src="" alt="Cuvette logo">
-        </div>
-        <div class="section">
-          <p class="Contact"><a target="_blank" href=""><span>Contact</span></a> | Indiranagar, Bangalore <br />Copyright 2022 Cuvette - All rights reserved</p>
-        </div>
-        <div class="footer_icons"> <!-- Apply FLEX in CSS -->
-          <a target="_blank" class="F_ICONS" href=""></a>
-          <a target="_blank" class="F_ICONS" href=""></a>
-          <a target="_blank" class="F_ICONS" href=""></a>
-          <a target="_blank" class="F_ICONS" href=""></a>
-        </div>
-        </div>
+        @* <div class="footer_container">
+            <div class="footer_logo"> <!-- Apply FLEX in CSS -->
+            <img class="footer_img" src="" alt="Cuvette logo">
+            </div>
+            <div class="section">
+            <p class="Contact"><a target="_blank" href=""><span>Contact</span></a> | Indiranagar, Bangalore <br />Copyright
+            2022 Cuvette - All rights reserved</p>
+            </div>
+            <div class="footer_icons"> <!-- Apply FLEX in CSS -->
+            <a target="_blank" class="F_ICONS" href=""></a>
+            <a target="_blank" class="F_ICONS" href=""></a>
+            <a target="_blank" class="F_ICONS" href=""></a>
+            <a target="_blank" class="F_ICONS" href=""></a>
+            </div>
+            </div>
         *@
-   </footer>
+    </footer>
 
 
-        @*   <!-- Apply FLEX in CSS -->
-        
+    @* <!-- Apply FLEX in CSS -->
+
 
 
         <div class="footer_location"> <!-- Apply FLEX in CSS -->
         <div class="footer_address">
-        
+
         "| <!-- Location of the website -->"
         </div>
         </div>
@@ -133,11 +140,12 @@
         </div>
 
         </div>*@
-    
+
     <!--     Links to Javascripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>
