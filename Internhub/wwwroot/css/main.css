@@ -20,17 +20,17 @@ header a {
 }
 
 header {
-    padding: 0 20px;
-    background-color: #fff;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    position: static;
-    top: 0;
-    position: sticky;
-    left: 0;
-    z-index: 103;
-    box-shadow: 10px 2px #fff;
+  padding: 0 20px;
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  top: 0;
+  position: sticky;
+  left: 0;
+  z-index: 103;
+  box-shadow: 10px 2px #fff;
 }
 
 .logo {
@@ -43,7 +43,7 @@ header {
   font-size: 18px;
 }
 
-ul {
+.layout-navbar {
   list-style: none;
   height: 100%;
   display: flex;
@@ -57,12 +57,13 @@ ul {
   color: black;
 }
 
-ul li {
+.layout-navbar li {
   padding: 5px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
-ul li:hover {
+.layout-navbar li:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
@@ -147,8 +148,8 @@ ul li:hover {
   #hamburger-icon {
     display: block;
   }
-  #hamburger-icon ul{
-      background-color: #fff;
+  #hamburger-icon ul {
+    background-color: #fff;
   }
 }
 /*Navbar css End*/
@@ -170,17 +171,27 @@ ul li:hover {
   padding: 0.3rem 0.5rem !important;
   border-radius: 7px !important;
 }
+
 @media (min-width: 992px) {
   .deadline {
     font-size: 0.8rem;
     color: #445ee2;
+  }
+  .level {
+    font-size: 1.1rem;
+    left: 50vw;
+    top: -9%;
+  }
+  .type-job {
+    left: 72vw;
+    top: -6%;
   }
 }
 .apply:hover {
   background: #3922c0 !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 835px) {
   .deadline {
     font-size: 0.8rem;
     color: #445ee2;
@@ -190,6 +201,18 @@ ul li:hover {
   }
   .intern-card {
     height: 70%;
+  }
+  .type-job {
+    left: 75vw;
+    top: -7%;
+    font-size: 0.84rem;
+  }
+  .sticky-el {
+    position: fixed !important;
+    top: -15% !important;
+    z-index: 0;
+    background: white;
+    width: 95% !important;
   }
 }
 
@@ -209,6 +232,18 @@ ul li:hover {
 }
 
 @media (max-width: 576px) {
+  .type-job {
+    left: 49vw;
+    top: -6%;
+    font-size: 0.84rem;
+  }
+  .sticky-el {
+    position: fixed !important;
+    top: -24% !important;
+    z-index: 100;
+    background: white;
+    width: 90% !important;
+  }
   .row .logo {
     flex: 0 0 auto;
     width: 20%;
@@ -283,4 +318,118 @@ ul li:hover {
 .bi-info-circle:hover::after {
   display: block;
 }
+#level-info::after {
+  content: "The candidate should have at least one project on relevant tech stack";
+  position: absolute;
+  font-size: 0.8rem;
+  font-style: normal;
+  padding: 15px 25px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.836);
+  top: 180%;
+  right: 20%;
+  width: 240px;
+  display: none;
+  height: 140px;
+  text-transform: none !important;
+  border-radius: 2px;
+}
+#level-info:hover::after {
+  display: block;
+}
 /*InternShip Page css end*/
+
+/* Internship Description Page Start*/
+.grey-back-desc {
+  background: hsl(220, 23%, 97%);
+}
+@media (min-width: 1024px) {
+  .level {
+    font-size: 1.1rem;
+    left: 68vw;
+    top: -9%;
+  }
+  .type-job {
+    left: 82vw;
+    top: -7%;
+  }
+}
+@media (max-width: 576px) {
+  .level {
+    display: none !important;
+  }
+  .desc-img {
+    width: 23% !important;
+    padding-left: 15px;
+  }
+  .desc-img > img {
+    width: 100% !important;
+  }
+  .job-title-desc {
+    width: 60%;
+  }
+  .app-no {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 8px !important;
+  }
+  .intern-container-desc {
+    width: 100%;
+  }
+  .job-title-desc h5,
+  .job-title-desc h6 {
+    font-size: 0.9rem !important;
+  }
+  .alt-share-btn {
+    width: 17%;
+    margin-right: 0.2rem;
+    display: block !important;
+  }
+  .share-desc {
+    display: none;
+  }
+  .other-links {
+    font-size: 0.85rem;
+  }
+  .about-company {
+    width: 75%;
+  }
+  .apply-desc-container {
+    width: 100% !important;
+  }
+  .deadline-container-container {
+    width: 100%;
+  }
+  .flex-container span {
+    width: 100%;
+  }
+  .apply-desc {
+    text-align: center;
+    width: 90%;
+  }
+  .box-desc {
+    width: 100%;
+  }
+  .col-desc {
+    width: 100%;
+    /* padding-right: 0.2rem; */
+  }
+  .link-img {
+    width: 25%;
+  }
+  .link-img > img {
+    width: 70% !important;
+  }
+  .grey-1 p {
+    width: 22% !important;
+  }
+  .grey-2 p,
+  .grey-3 p {
+    width: 55% !important;
+  }
+  .grey-4 {
+    width: 32% !important;
+  }
+}
+/* Internship Description Page End */
