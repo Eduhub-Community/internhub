@@ -215,7 +215,9 @@ header {
     width: 95% !important;
   }
 }
-
+.hero-banner-img {
+  background: url("/wwwroot/images/essential-shorts-1.webp") no-repeat;
+}
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
@@ -244,18 +246,24 @@ header {
     background: white;
     width: 90% !important;
   }
+  .apply {
+    font-size: 0.7rem !important;
+  }
   .row .logo {
     flex: 0 0 auto;
-    width: 20%;
+    width: 25%;
+    padding-left: 0.2rem !important;
+    padding-right: 0.2rem !important;
+    height: 2.2rem !important;
     margin-left: 10px;
-    margin-right: 5px !important;
+    margin-right: 3px !important;
   }
   .row .logo > img {
     width: 100%;
   }
   .job-title {
     flex: 0 0 auto;
-    width: 50%;
+    width: 45%;
     margin-top: 1.5rem;
   }
   .job-title h5,
@@ -269,11 +277,13 @@ header {
     width: 40%;
   }
   .box {
-    width: 90%;
+    width: 72%;
   }
   .job-type {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 38%;
+    padding-left: 0rem !important;
+    padding-right: 0.5rem !important;
     justify-content: space-between !important;
   }
   .job-type > p {
@@ -433,3 +443,195 @@ header {
   }
 }
 /* Internship Description Page End */
+
+/* Home Page & Applied Page Css start */
+.home-submit-btn {
+  z-index: 1;
+  border-radius: 30px;
+  width: 5.7rem;
+  font-size: small;
+  background: #445ee2;
+  border: 2px solid #445ee2;
+  color: white;
+  transition: all 0.2s linear;
+}
+
+.home-submit-btn:hover {
+  border: 2px solid #445ee2;
+  background: white;
+  color: #445ee2;
+}
+@media (min-width: 1024px) {
+  .email-input {
+    height: 3em;
+    width: 16.5rem;
+    z-index: -1;
+  }
+  .home-submit-btn {
+    margin-left: -6.1rem !important;
+    margin-top: 0.1rem !important;
+  }
+}
+.about-content h1 {
+  color: #3f5ae6;
+}
+.email-input {
+  outline: none;
+  border-radius: 30px;
+  background: #d4e7fb7c;
+  border: none;
+  font-size: 0.8rem;
+}
+@media (max-width: 576px) {
+  .email-input {
+    height: 2.55em;
+    width: 14rem;
+  }
+  .home-submit-btn {
+    margin-left: -5.5rem;
+    font-size: 0.8rem;
+    width: 5rem;
+    padding-left: 0.4rem !important;
+  }
+  .apply-desc-container {
+    flex-wrap: wrap;
+  }
+  .check-app {
+    text-align: center;
+    width: 100% !important;
+  }
+  .app-time {
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .hero-banner-img {
+    grid-row: 1;
+    margin-bottom: 2rem;
+  }
+  .about-img {
+    grid-row: 1;
+  }
+  .grid-col {
+    padding-left: 1rem;
+  }
+  .hero-container {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .hero-container > div > h1 {
+    font-size: 1.6rem;
+  }
+  .hero-content {
+    font-size: 0.9rem;
+  }
+  .grid-container {
+    grid-template-columns: none !important;
+    grid-auto-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+  .box > div .mx-3 + div .col-xl-4 {
+    width: 50% !important;
+  }
+  .box > div .mx-3 + span + div .col-xl-4 {
+    width: 50% !important;
+  }
+}
+@media (max-width: 375px) {
+  .banner-container {
+    padding-left: 0.2rem;
+  }
+  .banner-container > div > div {
+    padding-left: 0rem;
+  }
+  .email-input {
+    width: 13rem;
+    font-size: 0.8rem;
+    padding: 0.3rem 0 0.3rem 0.4rem !important;
+  }
+  .home-submit-btn {
+    margin-left: -5.4rem;
+    font-size: 0.78rem;
+    margin-top: 0.12rem;
+  }
+  .box-desc-container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .apply-img {
+    height: 40% !important;
+  }
+  .box {
+    width: 62%;
+  }
+}
+@media (max-width: 320px) {
+  .email-input {
+    width: 11rem;
+    padding-left: 0.5rem !important;
+    font-size: 0.7rem;
+  }
+  .home-submit-btn {
+    width: 4.3rem;
+    font-size: 0.69rem;
+    margin-left: -4.4rem;
+    margin-top: 0.08rem;
+    padding: 0.3rem 0 0.3rem 0 !important;
+  }
+  .form-container {
+    padding: auto 0rem;
+  }
+  .form-container > form {
+    width: 100%;
+  }
+  .row-container {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;
+  }
+  .apply-img {
+    height: 30% !important;
+  }
+  .box {
+    width: 48%;
+  }
+  .box > div .mx-3 {
+    flex-wrap: wrap;
+  }
+  .box > div .mx-3 span {
+    width: 50%;
+  }
+  .row .logo {
+    width: 30%;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+    height: 3rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .email-input {
+    height: 2.55em;
+    width: 16rem;
+  }
+  .home-submit-btn {
+    margin-left: 10.2rem;
+    margin-top: -1.94rem;
+    position: absolute;
+  }
+  .grid-col {
+    padding-left: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .about-img {
+    grid-row: 1;
+  }
+  .about-content > .grid-container {
+    grid-template-columns: none !important;
+    grid-auto-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+}
+/* Home Page & Applied Css end */

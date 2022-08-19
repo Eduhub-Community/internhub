@@ -82,6 +82,7 @@ class Ui {
       parseInt(scrolled) > 0
         ? this.scrollItems.scrollTo(parseInt(scrolled), 0)
         : "";
+      // filter internships when user clicks on a set button
       this.box.forEach((element) => {
         if (event === "all") return;
         element.dataset.id != event
