@@ -534,6 +534,9 @@ header {
   .box > div .mx-3 + span + div .col-xl-4 {
     width: 50% !important;
   }
+    #logo-2 {
+    height: 4rem !important;
+  }
 }
 @media (max-width: 375px) {
   .banner-container {
