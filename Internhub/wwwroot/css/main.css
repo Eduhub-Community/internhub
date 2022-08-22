@@ -9,7 +9,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+:root {
+  --hero-img-bg: rgba(0, 97, 254, 0.06);
+}
 body {
   font-family: "DM Sans", sans-serif;
 }
@@ -246,24 +248,18 @@ header {
     background: white;
     width: 90% !important;
   }
-  .apply {
-    font-size: 0.7rem !important;
-  }
   .row .logo {
     flex: 0 0 auto;
-    width: 25%;
-    padding-left: 0.2rem !important;
-    padding-right: 0.2rem !important;
-    height: 2.2rem !important;
+    width: 20%;
     margin-left: 10px;
-    margin-right: 3px !important;
+    margin-right: 5px !important;
   }
   .row .logo > img {
     width: 100%;
   }
   .job-title {
     flex: 0 0 auto;
-    width: 45%;
+    width: 50%;
     margin-top: 1.5rem;
   }
   .job-title h5,
@@ -277,13 +273,11 @@ header {
     width: 40%;
   }
   .box {
-    width: 72%;
+    width: 90%;
   }
   .job-type {
     flex: 0 0 auto;
-    width: 38%;
-    padding-left: 0rem !important;
-    padding-right: 0.5rem !important;
+    width: 33.33333333%;
     justify-content: space-between !important;
   }
   .job-type > p {
@@ -302,6 +296,13 @@ header {
   .deadline-container + span {
     width: 41%;
     height: 100%;
+  }
+  .wrapper > .box {
+    width: 72% !important;
+  }
+  .job-title + span {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 .bi-info-circle {
@@ -464,11 +465,11 @@ header {
 @media (min-width: 1024px) {
   .email-input {
     height: 3em;
-    width: 16.5rem;
+    width: 18rem;
     z-index: -1;
   }
   .home-submit-btn {
-    margin-left: -6.1rem !important;
+    margin-left: -5.4rem !important;
     margin-top: 0.1rem !important;
   }
 }
@@ -528,12 +529,6 @@ header {
     grid-template-columns: none !important;
     grid-auto-columns: repeat(auto-fit, minmax(500px, 1fr));
   }
-  .box > div .mx-3 + div .col-xl-4 {
-    width: 50% !important;
-  }
-  .box > div .mx-3 + span + div .col-xl-4 {
-    width: 50% !important;
-  }
 }
 @media (max-width: 375px) {
   .banner-container {
@@ -558,9 +553,6 @@ header {
   }
   .apply-img {
     height: 40% !important;
-  }
-  .box {
-    width: 62%;
   }
 }
 @media (max-width: 320px) {
@@ -589,23 +581,7 @@ header {
   .apply-img {
     height: 30% !important;
   }
-  .box {
-    width: 48%;
-  }
-  .box > div .mx-3 {
-    flex-wrap: wrap;
-  }
-  .box > div .mx-3 span {
-    width: 50%;
-  }
-  .row .logo {
-    width: 30%;
-    padding-left: 0rem !important;
-    padding-right: 0rem !important;
-    height: 3rem !important;
-  }
 }
-
 @media (min-width: 768px) {
   .email-input {
     height: 2.55em;
@@ -634,4 +610,12 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
 }
+.about-content {
+  opacity: 0;
+  transition: all 0.4s linear;
+}
+.show {
+  opacity: 1;
+}
+
 /* Home Page & Applied Css end */

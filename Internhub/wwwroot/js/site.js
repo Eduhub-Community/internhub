@@ -82,7 +82,6 @@ class Ui {
       parseInt(scrolled) > 0
         ? this.scrollItems.scrollTo(parseInt(scrolled), 0)
         : "";
-      // filter internships when user clicks on a set button
       this.box.forEach((element) => {
         if (event === "all") return;
         element.dataset.id != event
@@ -132,8 +131,16 @@ class Ui {
     };
     window.addEventListener("scroll", setStickyEl);
   }
+  checkContent(content) {
+    window.addEventListener("scroll", function () {
+      content.forEach((item) => {
+        item.getBoundingClientRect().top < (window.innerHeight / 5) * 3.5
+          ? item.classList.add("show")
+          : item.classList.remove("show");
+      });
+    });
+  }
 }
-
 /*InternShip Page js start*/
 const scrollItems = document.getElementById("scroll-items");
 const leftScrollIcon = document.getElementById("scroll-left");
@@ -153,3 +160,8 @@ const ui2 = new Ui(null, null, null, null, textBox, maxWidth);
 textBox !== null ? ui2.initializeDomDescriptionContent() : "";
 
 // Description js end
+// Home js start
+const aboutContent = document.querySelectorAll(".about-content");
+const ui3 = new Ui();
+aboutContent !== null ? ui3.checkContent(aboutContent) : "";
+// Home js end
