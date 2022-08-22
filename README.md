@@ -66,7 +66,7 @@ git pull upstream main
 git checkout -b <your_branch_name>
 ```
 
-**7.** Perfom your desired changes to the code base.
+**7.** Perfom your desired changes to the code base. Please make sure your changes are significant, no matter how little it may be.
 
 <p align="center"><img width=35% src="https://media2.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=ecf05e47pzi2rpig0vc8pjusra8hiai1b91zgiywvbubu9vu&rid=giphy.gif"></p>
 
@@ -88,13 +88,13 @@ git commit -m "Relevant message"
 git push -u origin <your_branch_name>
 ```
 
-**11.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR to.
+**11.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are suppose to make a PR too.
 
 **12.** Add appropriate title and description to your pull request explaining your changes and efforts done. Always make sure you have pulled the latest code from the master branch before making a PR.
 
 **13.** Click on `Create Pull Request`.
 
-**14.** Hurray ❗ You have created a PR to Eduhub-Commmunity internhub 💥 . Sit back patiently and relax till then the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+**14.** Hurray ❗ You have created a PR to Eduhub-Commmunity internhub 💥 . Sit back patiently and relax till when the project maintainers will review your PR. Please understand, there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
 
 Hurray! You successfully made a contribution!
 
