@@ -529,6 +529,19 @@ header {
     grid-template-columns: none !important;
     grid-auto-columns: repeat(auto-fit, minmax(500px, 1fr));
   }
+  #applied-logo-container {
+    height: 25% !important;
+    margin: auto 0 !important;
+    padding: auto 0 !important;
+    padding-left: 0.5rem !important;
+  }
+  #applied-logo-container img {
+    height: 75% !important;
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-left: 0.5rem !important;
+    border-radius: 100px !important;
+  }
 }
 @media (max-width: 375px) {
   .banner-container {
