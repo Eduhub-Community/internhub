@@ -1027,3 +1027,4 @@ D:\philskay\internhub\Internhub\obj\Debug\net6.0\refint\Internhub.dll
 D:\philskay\internhub\Internhub\obj\Debug\net6.0\Internhub.pdb
 D:\philskay\internhub\Internhub\obj\Debug\net6.0\Internhub.genruntimeconfig.cache
 D:\philskay\internhub\Internhub\obj\Debug\net6.0\ref\Internhub.dll
+D:\philskay\internhub\Internhub\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll

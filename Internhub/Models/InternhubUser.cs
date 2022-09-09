@@ -1,6 +1,9 @@
-﻿namespace Internhub.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace Internhub.Models
 {
-    public class InternhubUser
+    public class InternhubUser : IdentityUser
     {
+        public string Name { get; set; }
     }
 }

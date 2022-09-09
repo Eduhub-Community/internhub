@@ -3,11 +3,16 @@
 namespace Internhub.Models.Static
 {
 
+    /// <summary>
+    /// Culture info Interface
+    /// </summary>
     public interface ICountry
     {
-        List<string> CountryNames();
-    }
 
+        List<string> CountryNames();
+       
+    }
+    
     public class Country : ICountry
     {
         public List<string> CountryNames()

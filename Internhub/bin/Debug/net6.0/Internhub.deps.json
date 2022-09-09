@@ -9,6 +9,7 @@
       "Internhub/1.0.0": {
         "dependencies": {
           "MessagePackAnalyzer": "2.4.35",
+          "Microsoft.AspNetCore.Authentication.Google": "6.0.8",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.8",
           "Microsoft.AspNetCore.Identity.UI": "6.0.8",
           "Microsoft.AspNetCore.Session": "2.2.0",
@@ -55,6 +56,14 @@
         }
       },
       "MessagePackAnalyzer/2.4.35": {},
+      "Microsoft.AspNetCore.Authentication.Google/6.0.8": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "6.0.8.0",
+            "fileVersion": "6.0.822.36316"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.8": {
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -2420,6 +2429,13 @@
       "sha512": "sha512-XfrZM2ydnGN+h8MRGhPGnGowVXMQOLbVG1tJTRlH1FwoEkT2r1WIY6vG1Cl5Ml3fRUB7iwqlJ7LHenpwt32HiQ==",
       "path": "messagepackanalyzer/2.4.35",
       "hashPath": "messagepackanalyzer.2.4.35.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LncCnqtKYQspPgFUFa+iNCAF4G3cRP11wXqNvGKobZbVQBVoFyerutD2OaXoWUHakbt4H6SoVWsIc5HB5wvzZQ==",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.google.6.0.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.8": {
       "type": "package",
