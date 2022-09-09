@@ -48,15 +48,11 @@
                 <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Applied">Applied
                         Jobs</a></li>
                 <li><a class="nav_content" asp-area="Company" asp-controller="Home" asp-action="Index">Company</a></li>
-                <li>
-                    <a class="company">Are you a company</a>
-                </li>
-                <li>
-                    <a class="login">Log in</a>
-                </li>
-                <li>
-                    <a class="signup">Sign up</a>
-                </li>
+                <partial name="_LoginPartial" />
+
+              @*  @{
+                    await Html.RenderPartialAsync("_LoginPartial");
+                }*@
             </ul>
         </nav>
         <!--=========

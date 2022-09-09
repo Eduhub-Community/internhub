@@ -10,7 +10,7 @@ namespace Internhub.Data
         {
 
         }
-        public DbSet<Internship> Internship { get; set; }
+       // public DbSet<Internship> Internship { get; set; }
         public DbSet<InternhubUser> InternhubUser { get; set; }
     }
 }

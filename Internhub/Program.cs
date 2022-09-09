@@ -2,6 +2,7 @@ using Internhub.Data;
 using Internhub.Models.Static;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Internhub.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,8 +17,13 @@ builder.Services.AddSingleton<ICountry, Country>();
 builder.Services.AddDbContext<DataContext>(options => options.UseNpgsql(
     builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddIdentity<IdentityUser,IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<DataContext>().AddDefaultUI().AddDefaultTokenProviders();
+builder.Services.AddIdentity<InternhubUser, IdentityRole>(options =>
+options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders().AddDefaultUI();
+
+
+//builder.Services.AddIdentity<InternhubUser,IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+//    .AddEntityFrameworkStores<DataContext>().AddDefaultUI().AddDefaultTokenProviders();
 
 //Add service for session
 builder.Services.AddDistributedMemoryCache();
@@ -82,7 +88,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.MapRazorPages();
 app.UseRouting();
 app.UseAuthentication();;
 
@@ -99,7 +105,7 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+    //endpoints.MapRazorPages();
 });
 
 app.Run();
