@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\openSource\\internhub\\Internhub\\Internhub.csproj": {}
+    "D:\\philskay\\internhub\\Internhub\\Internhub.csproj": {}
   },
   "projects": {
-    "C:\\openSource\\internhub\\Internhub\\Internhub.csproj": {
+    "D:\\philskay\\internhub\\Internhub\\Internhub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\openSource\\internhub\\Internhub\\Internhub.csproj",
+        "projectUniqueName": "D:\\philskay\\internhub\\Internhub\\Internhub.csproj",
         "projectName": "Internhub",
-        "projectPath": "C:\\openSource\\internhub\\Internhub\\Internhub.csproj",
-        "packagesPath": "C:\\Users\\danikay tech\\.nuget\\packages\\",
-        "outputPath": "C:\\openSource\\internhub\\Internhub\\obj\\",
+        "projectPath": "D:\\philskay\\internhub\\Internhub\\Internhub.csproj",
+        "packagesPath": "C:\\Users\\TOBI-K\\.nuget\\packages\\",
+        "outputPath": "D:\\philskay\\internhub\\Internhub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\danikay tech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TOBI-K\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.4.35, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.8, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -83,7 +87,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -95,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
