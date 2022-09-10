@@ -3,6 +3,8 @@ using Internhub.Models.Static;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Internhub.Models;
+using System.Drawing.Text;
+using Internhub.Utilities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -107,5 +109,4 @@ app.UseEndpoints(endpoints =>
     pattern: "{controller=Home}/{action=Index}/{id?}");
     //endpoints.MapRazorPages();
 });
-
 app.Run();

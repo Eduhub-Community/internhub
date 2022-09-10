@@ -6,16 +6,16 @@
 
   <div class="body">
     <div class="header">
-      <h1>Online Job Portal</h1>
+      <h1 class="text-primary">Internhub</h1>
     </div>
     <div class="back">
-      <a asp-area="Company" asp-action="Index" asp-controller="Home"> Back</a>
+      <a asp-area="Company" class="btn btn-primary text-white" asp-action="Index" asp-controller="Home"> Back</a>
     </div>
     <div class="addJob">
       <h2>Add Job</h2>
     </div>
     <div class="main">
-      <form action="" method="get" enctype="multipart/form-data" accept-charset="utf-8">
+      <form asp-action="" method="post" enctype="multipart/form-data" accept-charset="utf-8">
         <div class="formContainer">
           <div class="section1">
             <div class="form1">
@@ -50,7 +50,9 @@
             <label for="LD">Last date to apply</label><br />
             <input type="date" name="LD" id="LD" placeholder="31/08/2021" /><br /><br />
             <label for="jobType">Job Type</label><br /> 
-            <input type="text" name="jobType" id="jobType" placeholder="Freelance" /><br /><br />
+            <select name="jobType" id="jobType" class="form-select" asp-items="@ViewBag.JobType">
+                <option value="Select job type" selected disabled>Select JobType</option>
+            </select><br /><br />
             <label for="companyLogo">Company/Organization Logo</label><br />
             <input type="file" name="companyLogo" id="companyLogo" placeholder="No file Choosen" /><br /><br />
             <label for="email">Email</label><br />
@@ -64,7 +66,9 @@
         <div class="section1">
           <div class="form1">
             <label for="Country">Country</label><br>
-            <select asp-items="@ViewBag.Country" type="text" name="Country"></select>
+            <select asp-items="@ViewBag.Country" class="form-select" type="text" name="Country">
+                <option value="Select Country" selected disabled>Select Country</option>
+            </select>
             <br><br>
           </div>
           <div class="form2">
@@ -73,7 +77,7 @@
           </div>
         </div>  
         <div class="post">
-          <input type="button" value="Post">
+          <input type="submit" class="btn btn-primary text-white" value="Post">
         </div>
         </div>
       </form>

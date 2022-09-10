@@ -1,12 +1,21 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Internhub.Models
 {
     public class InternhubUser : IdentityUser
     {
-        public string Name { get; set; }
+        [Column("Full Name")]
+        public string FullName { get; set; }
 
-        public string Organization { get; set; }
+        [Column("Company Name")]
+        public string CompanyName { get; set; }
+
+        [Required]
+        public bool IsCompany { get; set; }
+
+
+        public string Resume { get; set; }
     }
 }

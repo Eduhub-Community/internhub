@@ -11,6 +11,7 @@ using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
 using Internhub.Models;
+using Internhub.Utilities;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -26,6 +27,7 @@ namespace Internhub.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<InternhubUser> _signInManager;
         private readonly UserManager<InternhubUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;   
         private readonly IUserStore<InternhubUser> _userStore;
         private readonly IUserEmailStore<InternhubUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
@@ -33,12 +35,14 @@ namespace Internhub.Areas.Identity.Pages.Account
 
         public RegisterModel(
             UserManager<InternhubUser> userManager,
+            RoleManager<IdentityRole> roleManager,
             IUserStore<InternhubUser> userStore,
             SignInManager<InternhubUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
         {
             _userManager = userManager;
+            _roleManager = roleManager; 
             _userStore = userStore;
             _emailStore = GetEmailStore();
             _signInManager = signInManager;
@@ -80,6 +84,14 @@ namespace Internhub.Areas.Identity.Pages.Account
             [Display(Name = "Email")]
             public string Email { get; set; }
 
+            [Required]
+            [Display(Name = "Full Name")]
+            public string FullName { get; set; }
+
+            [Required]
+            [Display(Name = "Phone Number")]
+            public string PhoneNumber { get; set; }
+
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -111,19 +123,33 @@ namespace Internhub.Areas.Identity.Pages.Account
         {
             returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-            if (ModelState.IsValid)
+            if (ModelState.IsValid && !string.IsNullOrEmpty(Input.PhoneNumber))
             {
-                var user = CreateUser();
+               //Create roles Is not exist
+               CreateRoles().Wait();
 
-                await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
-                await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                var user = new InternhubUser {UserName = Input.Email,Email = Input.Email,FullName = Input.FullName,PhoneNumber = Input.PhoneNumber,PhoneNumberConfirmed = true };
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
 
+                    
+                    //Add the user to Role
+                    var presentInRole = await _userManager.IsInRoleAsync(user, "Student");
+                    if(presentInRole != true)
+                    {
+                        await _userManager.AddToRoleAsync(user, "Student");
+                    }
+                    else
+                    {
+                        throw new NotSupportedException();
+                    }
+
                     var userId = await _userManager.GetUserIdAsync(user);
+                    
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
                     var callbackUrl = Url.Page(
@@ -155,6 +181,19 @@ namespace Internhub.Areas.Identity.Pages.Account
             return Page();
         }
 
+        private async Task CreateRoles()
+        {
+            string[] names = { "Company", "Student", "Administrator" };
+            foreach (string rolename in names)
+            {
+                var roleExist = await _roleManager.RoleExistsAsync(rolename);
+                if (!roleExist)
+                {
+                    //create Roles
+                    await _roleManager.CreateAsync(new IdentityRole(rolename));
+                }
+            }
+        }
         private InternhubUser CreateUser()
         {
             try

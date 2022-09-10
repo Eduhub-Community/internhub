@@ -13,12 +13,15 @@ namespace Internhub.Areas.Company.Controllers
 
         public InternshipController(ILogger<InternshipController> logger, ICountry country)
         {
-            _logger = logger;            this.country = country; 
+            _logger = logger;
+            this.country = country; 
 
         }
         public IActionResult Post()
         {
             ViewBag.Country = new SelectList(country.CountryNames());
+            ViewBag.JobType = new SelectList(Enum.GetNames(typeof(JobType.Job)).ToList());
+
             return View();
         }
         public IActionResult List()
