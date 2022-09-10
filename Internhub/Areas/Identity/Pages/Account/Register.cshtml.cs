@@ -88,6 +88,29 @@ namespace Internhub.Areas.Identity.Pages.Account
             [Display(Name = "Full Name")]
             public string FullName { get; set; }
 
+            public string CompanyName { get; set; }
+
+            [Display(Name = "Company Name")]
+            public string GetCompany
+            {
+                get
+                {
+                    return CompanyName;
+                }
+                set
+                {
+                    if (!string.IsNullOrEmpty(value))
+                    {
+                        this.CompanyName = value;
+                    }
+                    else
+                    {
+                        this.CompanyName = "null";
+                    }
+
+                }
+            }
+
             [Required]
             [Display(Name = "Phone Number")]
             public string PhoneNumber { get; set; }
@@ -127,9 +150,18 @@ namespace Internhub.Areas.Identity.Pages.Account
             {
                //Create roles Is not exist
                CreateRoles().Wait();
-
-                var user = new InternhubUser {UserName = Input.Email,Email = Input.Email,FullName = Input.FullName,PhoneNumber = Input.PhoneNumber,PhoneNumberConfirmed = true,IsCompany = false };
-
+                InternhubUser user = new InternhubUser();
+                // if Input.GetCompany is equal to null then add register the user as Student 
+                // or else
+                // register as a Company
+                if (Input.GetCompany == null)
+                {
+                    user = new InternhubUser { UserName = Input.Email, Email = Input.Email, FullName = Input.FullName, CompanyName = Input.CompanyName, PhoneNumber = Input.PhoneNumber, PhoneNumberConfirmed = true, IsCompany = false };
+                }
+                else
+                {
+                    user = new InternhubUser { UserName = Input.Email, Email = Input.Email, FullName = Input.FullName, CompanyName = Input.CompanyName, PhoneNumber = Input.PhoneNumber, PhoneNumberConfirmed = true, IsCompany = true };
+                }
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
@@ -141,7 +173,17 @@ namespace Internhub.Areas.Identity.Pages.Account
                     var presentInRole = await _userManager.IsInRoleAsync(user, "Student");
                     if(presentInRole != true)
                     {
-                        await _userManager.AddToRoleAsync(user, "Student");
+                        //Check if it's company/Student and add to its correct role
+                        switch (user.IsCompany)
+                        {
+                            case true:
+                                await _userManager.AddToRoleAsync(user, "Company");
+                                break;
+                            default:
+                                await _userManager.AddToRoleAsync(user, "Student");
+                                break;
+                            
+                        }
                     }
                     else
                     {
