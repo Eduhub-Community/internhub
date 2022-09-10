@@ -128,7 +128,7 @@ namespace Internhub.Areas.Identity.Pages.Account
                //Create roles Is not exist
                CreateRoles().Wait();
 
-                var user = new InternhubUser {UserName = Input.Email,Email = Input.Email,FullName = Input.FullName,PhoneNumber = Input.PhoneNumber,PhoneNumberConfirmed = true };
+                var user = new InternhubUser {UserName = Input.Email,Email = Input.Email,FullName = Input.FullName,PhoneNumber = Input.PhoneNumber,PhoneNumberConfirmed = true,IsCompany = false };
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
