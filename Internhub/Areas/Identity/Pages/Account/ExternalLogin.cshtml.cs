@@ -26,6 +26,7 @@ namespace Internhub.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<InternhubUser> _signInManager;
         private readonly UserManager<InternhubUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IUserStore<InternhubUser> _userStore;
         private readonly IUserEmailStore<InternhubUser> _emailStore;
         private readonly IEmailSender _emailSender;
@@ -34,12 +35,14 @@ namespace Internhub.Areas.Identity.Pages.Account
         public ExternalLoginModel(
             SignInManager<InternhubUser> signInManager,
             UserManager<InternhubUser> userManager,
+            RoleManager<IdentityRole> roleManager,
             IUserStore<InternhubUser> userStore,
             ILogger<ExternalLoginModel> logger,
             IEmailSender emailSender)
         {
             _signInManager = signInManager;
             _userManager = userManager;
+            _roleManager = roleManager;
             _userStore = userStore;
             _emailStore = GetEmailStore();
             _logger = logger;
@@ -89,6 +92,29 @@ namespace Internhub.Areas.Identity.Pages.Account
             [Required]
             [Display(Name = "Full Name")]
             public string FullName { get; set; }
+
+            public string CompanyName { get; set; }
+
+            [Display(Name = "Company Name")]
+            public string GetCompany
+            {
+                get
+                {
+                    return CompanyName;
+                }
+                set
+                {
+                    if (!string.IsNullOrEmpty(value))
+                    {
+                        this.CompanyName = value;
+                    }
+                    else
+                    {
+                        this.CompanyName = "null";
+                    }
+
+                }
+            }
 
             [Required]
             [Display(Name = "Phone Number")]
@@ -162,7 +188,9 @@ namespace Internhub.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
-                var user = new InternhubUser { UserName = Input.Email, Email = Input.Email, FullName = Input.FullName, PhoneNumber = Input.PhoneNumber, PhoneNumberConfirmed = true, IsCompany = false };
+                //Create roles Is not exist
+                CreateRoles().Wait();
+                var user = new InternhubUser { UserName = Input.Email, Email = Input.Email, FullName = Input.FullName, PhoneNumber = Input.PhoneNumber,CompanyName = Input.CompanyName, PhoneNumberConfirmed = true, IsCompany = false };
 
                 var result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
@@ -171,6 +199,27 @@ namespace Internhub.Areas.Identity.Pages.Account
                     if (result.Succeeded)
                     {
                         _logger.LogInformation("User created an account using {Name} provider.", info.LoginProvider);
+
+                        //Add the user to Role
+                        var presentInRole = await _userManager.IsInRoleAsync(user, "Student");
+                        if (presentInRole != true)
+                        {
+                            //Check if it's company/Student and add to its correct role
+                            switch (user.IsCompany)
+                            {
+                                case true:
+                                    await _userManager.AddToRoleAsync(user, "Company");
+                                    break;
+                                default:
+                                    await _userManager.AddToRoleAsync(user, "Student");
+                                    break;
+
+                            }
+                        }
+                        else
+                        {
+                            throw new NotSupportedException();
+                        }
 
                         var userId = await _userManager.GetUserIdAsync(user);
                         var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -205,6 +254,19 @@ namespace Internhub.Areas.Identity.Pages.Account
             return Page();
         }
 
+        private async Task CreateRoles()
+        {
+            string[] names = { "Company", "Student", "Administrator" };
+            foreach (string rolename in names)
+            {
+                var roleExist = await _roleManager.RoleExistsAsync(rolename);
+                if (!roleExist)
+                {
+                    //create Roles
+                    await _roleManager.CreateAsync(new IdentityRole(rolename));
+                }
+            }
+        }
         private InternhubUser CreateUser()
         {
             try

@@ -45,9 +45,14 @@
             <ul class="layout-navbar">
                 <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Index">Internships</a>
                 </li>
-                <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Applied">Applied
+                @if(User.Identity.IsAuthenticated && User.IsInRole("Student")){
+                     <li><a class="nav_content" asp-area="" asp-controller="Internships" asp-action="Applied">Applied
                         Jobs</a></li>
+                }
+                @if(User.Identity.IsAuthenticated && User.IsInRole("Company")){
                 <li><a class="nav_content" asp-area="Company" asp-controller="Home" asp-action="Index">Company</a></li>
+
+                }
                 <partial name="_LoginPartial" />
             </ul>
         </nav>
@@ -62,11 +67,15 @@
                 <li class="list-unstyled"><a class="nav_content" asp-area="" asp-controller="Internships"
                         asp-action="Index">Internships</a>
                 </li>
-                <li class="list-unstyled"><a class="nav_content" asp-area="" asp-controller="Internships"
+                @if(User.Identity.IsAuthenticated && User.IsInRole("Student")){
+                                    <li class="list-unstyled"><a class="nav_content" asp-area="" asp-controller="Internships"
                         asp-action="Applied">Applied
                         Jobs</a></li>
-                <li class="list-unstyled"><a class="nav_content" asp-area="Company" asp-controller="Home"
+                }
+                @if(User.Identity.IsAuthenticated && User.IsInRole("Company")){
+                     <li class="list-unstyled"><a class="nav_content" asp-area="Company" asp-controller="Home"
                         asp-action="Index">Company</a></li>
+                }
                 <li class="list-unstyled">
                     <a class="company">Are you a company</a>
                 </li>
