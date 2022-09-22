@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Identity;
 using Internhub.Models;
 using System.Drawing.Text;
 using Internhub.Utilities;
+using Internhub.Repository.IServices;
+using Internhub.Repository.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,12 @@ builder.Services.AddControllersWithViews();
 
 //Add Country service
 builder.Services.AddSingleton<ICountry, Country>();
+
+//httpContect configuration
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+//Configure repository
+builder.Services.AddScoped<IGetInternships, InternshipServices>();
 
 
 //Add postgres database service

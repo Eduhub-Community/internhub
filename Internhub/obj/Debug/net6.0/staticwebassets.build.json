@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xOq6M3NQFdOd6isJZI9tDgrcYjFx1MxPPqU3F8FFsd4=",
+  "Hash": "tU8x59leaogU1fmsAQhzVfqaLOyGN6NUmLfa8UAECaI=",
   "Source": "Internhub",
   "BasePath": "_content/Internhub",
   "Mode": "Default",
@@ -2599,6 +2599,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\philskay\\internhub\\Internhub\\wwwroot\\logo\\7309681.jpg",
+      "SourceId": "Internhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\philskay\\internhub\\Internhub\\wwwroot\\",
+      "BasePath": "_content/Internhub",
+      "RelativePath": "logo/7309681.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo\\7309681.jpg"
     }
   ]
 }

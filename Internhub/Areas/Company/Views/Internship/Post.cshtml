@@ -1,85 +1,121 @@
-﻿
+﻿@using Internhub.Models
+@model Internship
 @{
     ViewData["Title"] = "Post Internship";
 }
 
 
-  <div class="body">
+<div class="body">
     <div class="header">
-      <h1 class="text-primary">Internhub</h1>
+        <h1 class="text-primary">Internhub</h1>
     </div>
     <div class="back">
-      <a asp-area="Company" class="btn btn-primary text-white" asp-action="Index" asp-controller="Home"> Back</a>
+        <a asp-area="Company" class="btn btn-primary text-white" asp-action="Index" asp-controller="Home"> Back</a>
     </div>
     <div class="addJob">
-      <h2>Add Job</h2>
+        <h2>Add Job</h2>
     </div>
     <div class="main">
-      <form asp-action="" method="post" enctype="multipart/form-data" accept-charset="utf-8">
-        <div class="formContainer">
-          <div class="section1">
-            <div class="form1">
-              <label for="jobTitle">Job Title</label><br>
-              <input type="text" name="jobTitle" id="jobTitle" placeholder="Web Developer"><br><br>
+        <form asp-action="Post" method="post" enctype="multipart/form-data" accept-charset="utf-8">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="formContainer">
+                <div class="section1">
+                    <div class="form1">
+                        <label for="jobTitle">Job Title<span class="text-danger fw-bolder fs-5">*</span></label><br>
+                        <input type="text" asp-for="JobTitle"  id="jobTitle" placeholder="Web Developer">
+                        <span asp-validation-for="JobTitle" class="text-danger"></span>
+                        <br><br>
+                    </div>
+                    <div class="form2">
+                        <label for="NOP">Number Of Post<span class="text-danger fw-bolder fs-5">*</span></label><br>
+                        <input type="number" asp-for="NOP" id="NOP" placeholder="3">
+                        <span asp-validation-for="NOP" class="text-danger"></span>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="section2">
+                    <label for="Description">Description<span class="text-danger fw-bolder fs-5">*</span></label><br>
+                    <textarea asp-for="JobDescription" id=Description rows="2" cols="50" placeholder="yhdyth"></textarea>
+                    <span asp-validation-for="JobDescription" class="text-danger"></span>
+                    <br><br>
+                </div>
+                <div class="section1">
+                    <div class="form1">
+                        <label for="Qualification">Qualification/Education Required<span class="text-danger fw-bolder fs-5">*</span></label><br>
+                        <input type="text" asp-for="Qualification" id="Qualification" placeholder="BCA">
+                        <span asp-validation-for="Qualification" class="text-danger"></span>
+                        <br><br>
+                        <label for="SR">Specilaization Required<span class="text-danger fw-bolder fs-5">*</span></label><br />
+                        <textarea asp-for="Specialization" id=SR rows="2" cols="50" placeholder="C#, OOP"></textarea>
+                        <span asp-validation-for="Specialization" class="text-danger"></span>
+                        <br /><br />
+                        <label for="Salary">Salary</label><br />
+                        <input type="alphanumeric" asp-for="Salary" id="Salary" placeholder="15000/month" />
+                        <span asp-validation-for="Salary" class="text-danger"></span>
+                        <br /><br />
+                        <label for="CON">Company/Organisation Name<span class="text-danger fw-bolder fs-5">*</span></label><br />
+                        <input type="text" asp-for="CompanyName" id="CON" placeholder="Test Company" />
+                        <span asp-validation-for="CompanyName" class="text-danger"></span>
+                        <br /><br />
+                        <label for="Website">Website</label><br />
+                        <input type="text" asp-for="Website" id="Website" placeholder="Enter Website" />
+                        <span asp-validation-for="Website" class="text-danger"></span>
+                        <br /><br />
+                    </div>
+                    <div class="form2">
+                        <label for="Experience">Experience Required<span class="text-danger fw-bolder fs-5">*</span></label>
+                        <input type="alphanumeric" asp-for="Experience" id="Experience" placeholder="2 years">
+                        <span asp-validation-for="Experience" class="text-danger"></span>
+                        <br><br>
+                        <label for="LD">Last date to apply</label><br />
+                        <input type="date" asp-for="LastDateToApply" id="LD" placeholder="31/08/2021" />
+                        <span asp-validation-for="LastDateToApply" class="text-danger"></span>
+                        <br /><br />
+                        <label for="jobType">Job Type<span class="text-danger fw-bolder fs-5">*</span></label><br />
+                        <select asp-for="JobType" id="jobType" class="form-select" asp-items="@ViewBag.JobType">
+                            <option value="Select job type" selected disabled>Select JobType</option>
+                        </select>
+                        <span asp-validation-for="JobType" class="text-danger"></span>
+                        <br /><br />
+                        <label for="companyLogo">Company/Organization Logo</label><br />
+                        <input type="file" name="logo" accept=".jpeg, .png, .jpg" id="companyLogo" placeholder="No file Choosen" />
+                        <span asp-validation-for="ComapnyLogo" class="text-danger"></span>
+                        <br /><br />
+                        <label for="email">Email<span class="text-danger fw-bolder fs-5">*</span></label><br />
+                        <input type="email" asp-for="Email" id="email" placeholder="anilmaurya8976@gmail.com" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                        <br /><br>
+                    </div>
+                </div>
+                <div class="section2">
+                    <label for="Address">Address<span class="text-danger fw-bolder fs-5">*</span></label><br>
+                    <textarea asp-for="Address" id=Address rows="2" cols="31" placeholder="C.P. Talao, Rd No. 27, Behind Sion Garage, Near Shiv Temple, Wagle Estate, Thane-West"></textarea>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                    <br><br>
+                </div>
+                <div class="section1">
+                    <div class="form1">
+                        <label for="Country">Country<span class="text-danger fw-bolder fs-5">*</span></label><br>
+                        <select asp-items="@ViewBag.Country" asp-for="Country" class="form-select" type="text">
+                            <option value="Select Country" selected disabled>Select Country</option>
+                        </select>
+                        <span asp-validation-for="Country" class="text-danger"></span>
+                        <br><br>
+                    </div>
+                    <div class="form2">
+                        <label for="State">State<span class="text-danger fw-bolder fs-5">*</span></label><br>
+                        <input type="text" asp-for="State" id="State" placeholder="Lagos">
+                        <span asp-validation-for="State" class="text-danger"></span>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="post">
+                    <input type="submit" class="btn btn-primary text-white" value="Post">
+                </div>
             </div>
-            <div class="form2">
-              <label for="NOP">Number Of Post</label><br>
-              <input type="number" name="NOP" id="NOP" placeholder="3"><br><br>
-            </div>
-          </div>
-          <div class="section2">
-            <label for="Description">Description</label><br>
-            <textarea name="Description" id=Description rows="2" cols="50" placeholder="yhdyth"></textarea><br><br>
-          </div>
-          <div class="section1">
-           <div class="form1">
-              <label for="Qualification">Qualification/Education Required</label><br>
-              <input type="text" name="Qualification" id="Qualification" placeholder="BCA"><br><br>
-              <label for="SR">Specilaization Required</label><br />
-              <textarea name="SR" id=SR rows="2" cols="50" placeholder="C#, OOP"></textarea><br /><br />
-              <label for="Salary">Salary</label><br />
-              <input type="alphanumeric" name="Salary" id="Salary" placeholder="15000/month" /><br /><br />
-              <label for="CON">Company/Organisation Name</label><br />
-              <input type="text" name="CON" id="CON" placeholder="Test Company" /><br /><br />
-              <label for="Website">Website</label><br />
-              <input type="text" name="Website" id="Website" placeholder="Enter Website" /><br /><br />
-          </div>
-          <div class="form2">
-            <label for="Experience">Experience Required</label>
-            <input type="alphanumeric" name="Experience" id="Experience"><br><br>
-            <label for="LD">Last date to apply</label><br />
-            <input type="date" name="LD" id="LD" placeholder="31/08/2021" /><br /><br />
-            <label for="jobType">Job Type</label><br /> 
-            <select name="jobType" id="jobType" class="form-select" asp-items="@ViewBag.JobType">
-                <option value="Select job type" selected disabled>Select JobType</option>
-            </select><br /><br />
-            <label for="companyLogo">Company/Organization Logo</label><br />
-            <input type="file" name="companyLogo" id="companyLogo" placeholder="No file Choosen" /><br /><br />
-            <label for="email">Email</label><br />
-            <input type="email" name="email" id="email" placeholder="anilmaurya8976@gmail.com" /><br /><br>
-          </div>
-        </div>
-        <div class="section2">
-          <label for="Address">Address:</label><br>
-          <textarea name="Address" id=Address rows="2" cols="31"placeholder="C.P. Talao, Rd No. 27, Behind Sion Garage, Near Shiv Temple, Wagle Estate, Thane-West"></textarea><br><br>
-        </div>
-        <div class="section1">
-          <div class="form1">
-            <label for="Country">Country</label><br>
-            <select asp-items="@ViewBag.Country" class="form-select" type="text" name="Country">
-                <option value="Select Country" selected disabled>Select Country</option>
-            </select>
-            <br><br>
-          </div>
-          <div class="form2">
-            <label for="State">State</label><br>
-            <input type="text" name="State" id="State" placeholder="Lagos"><br><br>
-          </div>
-        </div>  
-        <div class="post">
-          <input type="submit" class="btn btn-primary text-white" value="Post">
-        </div>
-        </div>
-      </form>
+        </form>
     </div>
-  </div>
+</div>
+    @section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

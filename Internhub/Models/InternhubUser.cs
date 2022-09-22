@@ -17,5 +17,7 @@ namespace Internhub.Models
 
 
         public string Resume { get; set; }
+
+        public List<Internship> Jobs { get; set; }  
     }
 }

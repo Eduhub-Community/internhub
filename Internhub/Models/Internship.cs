@@ -9,7 +9,11 @@ namespace Internhub.Models
     public class Internship
     {
         [Key]
-        public Guid Id { get; set; }
+        public Guid InternshipId { get; set; }
+
+        public string Id { get; set; }
+        [ForeignKey("Id")]
+        public InternhubUser CompanyUser { get; set; }
 
         [Required]
         [Column("Job Title")]
@@ -30,7 +34,7 @@ namespace Internhub.Models
         [Required]
         [Column("Experience")]
         [MaxLength(20,ErrorMessage ="Characters too long")]
-        public string Experince { get; set; }
+        public string Experience { get; set; }
 
         [Required]
         [Column("Specialization")]
@@ -39,6 +43,9 @@ namespace Internhub.Models
         [Column("LastDateToApply")]
         [DataType(DataType.Date)]
         public string LastDateToApply { get; set; }
+
+        [Required]
+        public DateTime DateCreated { get; set; }
 
         [Column("Salary")]
         [DataType(DataType.Currency)]
@@ -64,8 +71,8 @@ namespace Internhub.Models
         public string Email { get; set; }
 
         [Required]
-        [MaxLength(30)]
-        public string Adress { get; set; }
+        [MaxLength(60,ErrorMessage ="too Long")]
+        public string Address { get; set; }
 
         [Required]
         public string Country { get; set; }
