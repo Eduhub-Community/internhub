@@ -1,6 +1,7 @@
 ﻿using Internhub.Models;
 using Internhub.Models.Static;
 using Internhub.Repository.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +12,8 @@ using System.Security.Claims;
 namespace Internhub.Areas.Company.Controllers
 {
     [Area("Company")]
+    [Authorize(Roles ="Company")]
+
     public class InternshipController : Controller
     {
         private readonly ILogger<InternshipController> _logger;

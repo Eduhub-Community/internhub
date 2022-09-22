@@ -1,3 +1,6 @@
+@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<InternhubUser> SignInManager
+@inject UserManager<InternhubUser> UserManager
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,8 +32,11 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#!">Profile</a></li>
-                    <li><a class="dropdown-item" href="#!">Logout</a></li>
+                    @if(SignInManager.IsSignedIn(User)){
+                        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                            <button id="logout" type="submit" class="nav-link btn btn-primary text-dark">Logout</button>
+                        </form>
+                    }
                 </ul>
             </li>
         </ul>
@@ -67,7 +73,10 @@
                 </div>
                 <div class="sb-sidenav-footer">
                     <div class="small">Logged in as:</div>
-                    Company
+                    @if(SignInManager.IsSignedIn(User)){
+                        <a asp-area="Identity" asp-page="/Account/Manage/Index" class="text-decoration-none">@User.Identity.Name</a>
+                        
+                    }
                 </div>
             </nav>
         </div>
