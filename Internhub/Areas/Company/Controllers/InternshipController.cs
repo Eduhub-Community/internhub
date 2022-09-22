@@ -50,7 +50,7 @@ namespace Internhub.Areas.Company.Controllers
             if (ModelState.IsValid)
             {
                 internships.AddInternship(internship, logo);
-                TempData["AddInternship"] = "Internship added successfully";
+                TempData["AddInternship"] = "You have successfully Posted an Internship, checkout for the Students Aplications";
                 return RedirectToAction("List");
             }
             ModelState.AddModelError(string.Empty, "Complete the form");

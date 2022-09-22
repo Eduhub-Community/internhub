@@ -93,3 +93,12 @@
         </tr>
       </table>
     </div>
+    @section Scripts {
+    @if (TempData["AddInternship"] != null)
+    {
+        <script type="text/javascript">
+            var message = '@TempData["AddInternship"]';
+            alertify.success(message);
+        </script>
+    }
+   }
