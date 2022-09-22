@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A20TpGHUvQQyH6RROIw0IKpwQS1BPTNWxiBcXHzY9to=",
+  "Hash": "E/FJHMs1h+JPEppE2JsQmt+czfde+cKNHvJtttdQ5Vs=",
   "Source": "Internhub",
   "BasePath": "_content/Internhub",
   "Mode": "Default",
@@ -2633,6 +2633,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logo\\7309681-removebg-preview.png"
+    },
+    {
+      "Identity": "D:\\philskay\\internhub\\Internhub\\wwwroot\\logo\\icons8-unity-150.png",
+      "SourceId": "Internhub",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\philskay\\internhub\\Internhub\\wwwroot\\",
+      "BasePath": "_content/Internhub",
+      "RelativePath": "logo/icons8-unity-150.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo\\icons8-unity-150.png"
     }
   ]
 }

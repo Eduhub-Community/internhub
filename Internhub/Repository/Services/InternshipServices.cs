@@ -53,7 +53,7 @@ namespace Internhub.Repository.Services
             //Getting the Image upload from server converuing to a url
             var name = Path.Combine(_env.WebRootPath + "/logo", Path.GetFileName(img.FileName));
             img.CopyTo(new FileStream(name, FileMode.Create));
-            string url = $"logo/{img}";
+            string url = $"logo/{img.FileName}";
             return url;
         }
     }
