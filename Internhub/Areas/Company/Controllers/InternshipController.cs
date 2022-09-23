@@ -1,6 +1,7 @@
 ﻿using Internhub.Models;
 using Internhub.Models.Static;
 using Internhub.Repository.IServices;
+using Internhub.Utilities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Identity;
@@ -20,7 +21,7 @@ namespace Internhub.Areas.Company.Controllers
         private readonly ICountry country;
         private readonly IGetInternships internships;
         private readonly UserManager<InternhubUser> _userManager;
-
+        public List<Internship> internshipsSession = new List<Internship>();
 
         public InternshipController(ILogger<InternshipController> logger, ICountry country,IGetInternships internships,UserManager<InternhubUser> userManager)
         {
@@ -40,11 +41,18 @@ namespace Internhub.Areas.Company.Controllers
 
         }
 
+        /// <summary>
+        /// Mecthod6 that adds the internship to database
+        /// </summary>
+        /// <param name="internship"></param>
+        /// <param name="logo"></param>
+        /// <returns></returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName("Post")]
         public IActionResult AddPost([ModelBinder]Internship internship, IFormFile logo)
         {
+
             //Gets the current loggedIn user Id
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             internship.InternshipId = Guid.NewGuid();
@@ -52,22 +60,45 @@ namespace Internhub.Areas.Company.Controllers
             internship.DateCreated = DateTime.UtcNow;
             if (ModelState.IsValid)
             {
+                internshipsSession = HttpContext.Session.Get<List<Internship>>("internships") ?? new List<Internship>();
+                //add the internship to database
                 internships.AddInternship(internship, logo);
+                internshipsSession.Add(internship);
+                HttpContext.Session.Set("internships",internshipsSession);  
+                //Send to the notification message in Javascript
                 TempData["AddInternship"] = "You have successfully Posted an Internship, checkout for the Students Aplications";
+
                 return RedirectToAction("List");
             }
             ModelState.AddModelError(string.Empty, "Complete the form");
              return View(internship);
         }
-
+        /// <summary>
+        /// Method that shows the list of interships 
+        /// for the individual account
+        /// </summary>
+        /// <returns></returns>
         public IActionResult List()
         {
-            return View();
+            //Gets the company user data
+            var user = internships.GetCompanyUser(GetUserid).Result;
+            //returns the Internships under the company user
+            var posts = internships.GetAllCompanyInternships(user);
+            return View(posts);
         }
 
         public IActionResult Resumes()
         {
             return View();
+        }
+
+        /// <summary>
+        /// Get the current user id
+        /// </summary>
+        /// <returns></returns>
+        private string GetUserid()
+        {
+            return User.FindFirstValue(ClaimTypes.NameIdentifier);
         }
     }
 }

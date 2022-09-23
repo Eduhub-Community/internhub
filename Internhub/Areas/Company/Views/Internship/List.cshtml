@@ -1,98 +1,57 @@
-﻿
+﻿@using Internhub.Models;
+@model List<Internship>
 @{
     ViewData["Title"] = "Internship Posted List";
+    int postCount = 1;
 }
 
 <h1>Internship Posted List</h1>
 
-<div table-responsive>
-      <table>
-        <tr>
-          <th class="sn">Sr.No</th>
-          <th>JOB TITLE</th>
-          <th>No. Of Post</th>
-          <th>Qualification Required</th>
-          <th>Experience Required</th>
-          <th>Last Date to apply</th>
-          <th>Company</th>
-          <th>Country</th>
-          <th>State</th>
-          <th>Job Posted Date</th>
-          <th>Edit</th>
-          <th>Delete</th>
-        </tr>
-        <tr>
-          <td class="sn">1.</td>
-          <td>Web Developer</td>
-          <td>3</td>
-          <td>BCA</td>
-          <td>2 Years</td>
-          <td>31 August 2021</td>
-          <td>Test Company</td>
-          <td>United States</td>
-          <td>Maharashtra</td>
-          <td>21 August 2022</td>
-          <td class="icons"><i class="fa-solid fa-pen"></i></td>
-          <td class="icons"><i class="fa-solid fa-trash-can"></i></td>
-        </tr>
-        <tr>
-          <td class="sn">2.</td>
-          <td>App Developer</td>
-          <td>3</td>
-          <td>BTech</td>
-          <td>Freshers</td>
-          <td>28 August 2021</td>
-          <td>Test Company1</td>
-          <td>India</td>
-          <td>Maharashtra</td>
-          <td>22 August 2022</td>
-          <td class="icons"><i class="fa-solid fa-pen"></i></td>
-          <td class="icons"><i class="fa-solid fa-trash-can"></i></td>
-        </tr>
-        <tr>
-          <td class="sn">3.</td>
-          <td>Frontend Developer</td>
-          <td>4</td>
-          <td>BSC IT/CS</td>
-          <td>Freshers</td>
-          <td>01 September 2021</td>
-          <td>Abc Infotech Services Pvt Ltd</td>
-          <td>Japan</td>
-          <td>Maharashtra</td>
-          <td>23 August 2022</td>
-          <td class="icons"><i class="fa-solid fa-pen"></i></td>
-          <td class="icons"><i class="fa-solid fa-trash-can"></i></td>
-        </tr>
-        <tr>
-          <td class="sn">4.</td>
-          <td>Backend Developer</td>
-          <td>7</td>
-          <td>BTech</td>
-          <td>1 Years</td>
-          <td>02 September 2021</td>
-          <td>Test Company2</td>
-          <td>India</td>
-          <td>Maharashtra</td>
-          <td>24 August 2022</td>
-          <td class="icons"><i class="fa-solid fa-pen"></i></td>
-          <td class="icons"><i class="fa-solid fa-trash-can"></i></td>
-        </tr>
-        <tr>
-          <td class="sn">5.</td>
-          <td>App Developer</td>
-          <td>6</td>
-          <td>BCA</td>
-          <td>1 Years</td>
-          <td>29 August 2021</td>
-          <td>Test Company</td>
-          <td>India</td>
-          <td>Maharashtra</td>
-          <td>25 August 2022</td>
-          <td class="icons"><i class="fa-solid fa-pen"></i></td>
-          <td class="icons"><i class="fa-solid fa-trash-can"></i></td>
-        </tr>
-      </table>
+@if (Model.Count > 0)
+{
+    <div table-responsive>
+        <table>
+            <tr>
+                <th class="sn">Sr.No</th>
+                <th>JOB TITLE</th>
+                <th>No. Of Post</th>
+                <th>Qualification Required</th>
+                <th>Experience Required</th>
+                <th>Last Date to apply</th>
+                <th>Company</th>
+                <th>Country</th>
+                <th>State</th>
+                <th>Job Posted Date</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+            @foreach(var item in Model){
+                <tr>
+                    @{
+                        int count = postCount++;
+                    }
+                    <td class="sn">@count</td>
+                    <td>@Html.DisplayFor(m => item.JobTitle)</td>
+                    <td>@Html.DisplayFor(m => item.NOP)</td>
+                    <td>@Html.DisplayFor(m => item.Qualification)</td>
+                    <td>@Html.DisplayFor(m => item.Experience)</td>
+                    <td>@Html.DisplayFor(m => item.LastDateToApply)</td>
+                    <td>@Html.DisplayFor(m => item.CompanyName)</td>
+                    <td>@Html.DisplayFor(m => item.Country)</td>
+                    <td>@Html.DisplayFor(m => item.State)</td>
+                    <td>@Html.DisplayFor(m => item.DateCreated)</td>
+                    <td class="icons"><i class="fa-solid fa-pen"></i></td>
+                    <td class="icons"><i class="fa-solid fa-trash-can"></i></td>
+                </tr>
+            }
+            
+        </table>
     </div>
+}
+else { 
+    <h3 class="alert alert-danger">No Intership to show</h3>
+}
+
     @section Scripts {
     @if (TempData["AddInternship"] != null)
     {

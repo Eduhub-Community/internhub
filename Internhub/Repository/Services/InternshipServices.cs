@@ -3,6 +3,10 @@ using Internhub.Data;
 using Internhub.Models;
 using Internhub.Repository.IServices;
 using System.Runtime.CompilerServices;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace Internhub.Repository.Services
 {
@@ -38,9 +42,10 @@ namespace Internhub.Repository.Services
             throw new NotImplementedException();
         }
 
-        Task<List<Internship>> IGetInternships.GetAllInternships()
+        List<Internship> IGetInternships.GetAllCompanyInternships(InternhubUser user)
         {
-            throw new NotImplementedException();
+            List<Internship> intershhips = user.Jobs ?? new List<Internship>();
+            return intershhips;
         }
 
         Task<Internship> IGetInternships.GetInternshipById(Guid id)
@@ -55,6 +60,24 @@ namespace Internhub.Repository.Services
             img.CopyTo(new FileStream(name, FileMode.Create));
             string url = $"logo/{img.FileName}";
             return url;
+        }
+
+        /// <summary>
+        /// This method accept a delegate method that returns a string
+        /// to get the user's data
+        /// </summary>
+        /// <param name="userIdMethod"></param>
+        /// <returns></returns>
+        Task<InternhubUser> IGetInternships.GetCompanyUser(Func<string> userIdMethod)
+        {
+            string userId = userIdMethod(); 
+            var user = _dataContext.InternhubUser.Include(c => c.Jobs).Where(d => d.Id == userId).FirstOrDefaultAsync();
+            return user;
+        }
+
+        Task<List<Internship>> IGetInternships.GetAllInternships()
+        {
+            return _dataContext.Internship.ToListAsync();
         }
     }
 }
